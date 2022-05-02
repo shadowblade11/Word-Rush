@@ -24,11 +24,14 @@ document.addEventListener('keydown', function(event){
         //method
         return;
     }
-    if (letter.length == 1){
-    if (letter >= 'a' && letter <= 'z'){
-        letter = letter.toUpperCase();
-    }
-    press(letter);
+    if ((letter.length == 1) && ((letter >= 'a' && letter <= 'z') || (letter >= 'a' && letter <= 'z'))){
+        if (letter == " "){
+            return;
+        }
+        if (letter >= 'a' && letter <= 'z'){
+            letter = letter.toUpperCase();
+        }
+        press(letter);
 }
 
 })

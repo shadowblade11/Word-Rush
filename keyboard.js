@@ -1,4 +1,11 @@
 function press(letter){
     const text = document.getElementById("textBox");
-    text.innerHTML += letter.innerHTML;
+    if (letter.innerHTML != "DELETE" && letter.innerHTML != "ENTER"){
+        text.innerHTML += letter.innerHTML;
+    }
+    else{
+        if (letter.innerHTML == "DELETE"){
+            text.innerHTML = text.innerHTML.slice(0,-1);
+        }
+    }
 }

@@ -24,7 +24,7 @@ document.addEventListener('keydown', function(event){
         //method
         return;
     }
-    if ((letter >= 'a' && letter <= 'z') || letter >= 'A' && letter <= 'Z'){
+    if (letter.length == 1){
     if (letter >= 'a' && letter <= 'z'){
         letter = letter.toUpperCase();
     }

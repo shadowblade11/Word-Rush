@@ -5,8 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .popup{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color:rgb(255, 255, 255, 0.5);
     width: 450px;
     padding: 30px 40px;
     position: absolute;
@@ -14,11 +15,13 @@
     left: 50%;
     top: 50%;
     border-radius: 8px;
+    font-family: "Poppins",sans-serif;
     display: none;
     text-align: center;
 }
 .popup button{
     display: block;
+    margin:  0 0 20px auto;
     background-color: transparent;
     font-size: 30px;
     color: black;

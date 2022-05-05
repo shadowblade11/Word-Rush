@@ -1,3 +1,26 @@
+
+const keyboardKeys = [['Q','W','E','R','T','Y','U','I','O','P'],['A','S','D','F','G','H','J','K','L'],['DELETE','Z','X','C','V','B','N','M','ENTER']];
+function initKeyboard(){
+    let mainDiv = document.getElementById("main");
+    for (let row = 0; row < keyboardKeys.length;row++){
+        let rowOfKeys = document.createElement("div");
+        let arrayofKeys = keyboardKeys[row];
+        for (let keyIndex = 0; keyIndex < arrayofKeys.length;keyIndex++){
+            let button = document.createElement("button");
+            button.onclick = function (){press(this.innerHTML)};
+            if (arrayofKeys[keyIndex] == "DELETE" || arrayofKeys[keyIndex] == "ENTER"){
+                button.className = "key key-wide";
+            }
+            else{
+                button.className = "key";
+            }
+            button.innerHTML = arrayofKeys[keyIndex];
+            rowOfKeys.appendChild(button);
+        }
+        mainDiv.appendChild(rowOfKeys);
+    }
+}
+
 function press(letter){
     const text = document.getElementById("textBox");
     if (letter != "DELETE" && letter != "ENTER"){
@@ -12,7 +35,6 @@ function press(letter){
         }
     }
 }
-
 
 document.addEventListener('keydown', function(event){
     let letter = event.key;

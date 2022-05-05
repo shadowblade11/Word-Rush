@@ -3,6 +3,7 @@ function initKeyboard(){
     let mainDiv = document.getElementById("main");
     for (let row = 0; row < keyboardKeys.length;row++){
         let rowOfKeys = document.createElement("div");
+        rowOfKeys.className = "keyboard-keys";
         let arrayofKeys = keyboardKeys[row];
         for (let keyIndex = 0; keyIndex < arrayofKeys.length;keyIndex++){
             let button = document.createElement("button");

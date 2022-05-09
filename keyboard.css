@@ -1,0 +1,28 @@
+.keyboard{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    background-color: black;
+    height:15%;
+    padding:5px;
+  }
+  
+  .keyboard-keys{
+    text-align: center;
+  }
+  
+  .key{
+    border-radius: 5px;
+    width:7.5%;
+    border:none;
+    margin: 2px;
+  }
+  
+  .key:active{
+    background-color: red;
+  }
+  
+  .key-wide{
+    width: 13.00%;
+  }

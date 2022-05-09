@@ -31,7 +31,10 @@ function press(letter){
             text.innerHTML = text.innerHTML.slice(0,-1);
         }
         if(letter == "ENTER"){
-            //method
+            if(text.innerHTML != ""){
+                getWord(text.innerHTML);
+                text.innerText = "";
+            }
         }
     }
 }
@@ -43,7 +46,7 @@ document.addEventListener('keydown', function(event){
         return;
     }
     if (letter == "Enter"){
-        //method
+        press("ENTER");
         return;
     }
     if ((letter.length == 1) && ((letter >= 'a' && letter <= 'z') || (letter >= 'a' && letter <= 'z'))){
@@ -55,5 +58,4 @@ document.addEventListener('keydown', function(event){
         }
         press(letter);
 }
-
 })

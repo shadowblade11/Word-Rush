@@ -1,6 +1,9 @@
 document.getElementById("begin").addEventListener("click", function(){
     var timeleft = 60;
 
+    var deleteButton = document.getElementById("begin");
+    deleteButton.parentNode.removeChild(deleteButton);
+
     var downloadTimer = setInterval(function function1(){
     document.getElementById("countdown").innerHTML = timeleft + 
     "&nbsp"+"seconds remaining";

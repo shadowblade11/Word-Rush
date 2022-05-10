@@ -1,58 +1,37 @@
-var globalState;
 function getWord(word){
     console.log(word);
-    gWord = word;
-    // console.log(validateWord(word));
-    // console.log(doStuff());
-    if(validateWord(word)){
-        console.log("hello");
-        if(checkIfWordInArray(word)){
-            addWord(word);
-        }
-    }
+    validateWord(word);
 }
-function validateWord(word){
-    // console.log(state);
-    // return state;
-    // doStuff(word);
-    var Finalresult = false;
-    console.log(doStuff(word));
-    console.log("Global state is "+globalState);
-    return Finalresult;
-}
+
 
 function makeAjaxCall(word, callback) {
     const url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word;
     $.ajax(url)
         .done( 
             function() {
-                // Do stuff
-                console.log("works");
+                // console.log("works");
                 callback(true);
             }
         )
         .fail(
             function() {
-                console.log("fails");
+                // console.log("fails");
                 callback(false);
             }
         );
 }
-function doStuff(word) {
-var a = makeAjaxCall( word, function(result) {
-    // return result;
-    if (result == true){
-        console.log("it worked");
-        globalState = true;
-        return true;
-    }
-    else{
-        console.log("it didn't work")
-        globalState = false;
-        return false;
-    }
-    });
-    return a;
+function validateWord(word) {
+    makeAjaxCall( word, function(result) {
+        if (result == true){
+            console.log("it worked");
+            if(checkIfWordInArray(word)){
+                addWord(word);
+            }
+        }
+        else{
+            console.log("it didn't work")
+        }
+        });
 }
 
 function checkIfWordInArray(word){

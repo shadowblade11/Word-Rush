@@ -10,4 +10,8 @@ window.addEventListener("load", function(){
 
 document.querySelector("#close").addEventListener("click", function(){
     document.querySelector(".popup").style.display = "none";
+    document.querySelector(".container-popup").style.display = "none";
 });
+
+
+

@@ -1,8 +1,10 @@
+var validWordsArray = [];
+var invalidWordsArray = [];
 function getWord(word){
     console.log(word);
     validateWord(word);
+    addWord(word);
 }
-
 
 function makeAjaxCall(word, callback) {
     const url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word;
@@ -20,27 +22,29 @@ function makeAjaxCall(word, callback) {
             }
         );
 }
+
 function validateWord(word) {
     makeAjaxCall( word, function(result) {
         if (result == true){
             console.log("it worked");
-            if(checkIfWordInArray(word)){
-                addWord(word);
+            if(!validWordsArray.includes(word)){
+                validWordsArray.push(word);
             }
         }
         else{
             console.log("it didn't work")
+            if(!invalidWordsArray.includes(word)){
+                invalidWordsArray.push(word);
+            }
         }
         });
 }
 
-function checkIfWordInArray(word){
-    return true;
-}
-
 function addWord(word){
+    if(!validWordsArray.includes(word)){
     let list = document.getElementById("list");
     let item = document.createElement("li");
     item.innerHTML = word;
     list.appendChild(item);
+    }
 }

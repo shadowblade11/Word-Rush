@@ -1,15 +1,14 @@
-@keyframes color {
-  0%   { background: #ffffff; }
-  20%  { background: #000000; }
-  40%  { background: #ffffff; }
-  60%  { background: #000000; }
-  80%  { background: #ffffff; }
-  100% { background: #000000; }
-}
-
 body {
-  background: #33CCCC; /* Fallback */
-  animation: color 100s infinite linear;
   text-align: center;
   padding: 2em;
+}
+
+#textBox {
+  border:solid;
+  border-style: none none solid none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
 }

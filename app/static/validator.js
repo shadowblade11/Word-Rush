@@ -41,7 +41,7 @@ function validateWord(word) {
 }
 
 function addWord(word){
-    if(!validWordsArray.includes(word)){
+    if(!validWordsArray.includes(word) && !invalidWordsArray.includes(word)){
     let list = document.getElementById("list");
     let item = document.createElement("li");
     item.innerHTML = word;

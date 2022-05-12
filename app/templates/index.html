@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <title>Word Rush</title>
     <link rel="stylesheet" href="{{ url_for('static',filename='Styles.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='keyboard.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='Popup.css') }}">
@@ -12,24 +12,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <div class="popup">
+    <!-- <div class="popup">
         <button id="close">&times;</button>
         <h2>Instructions</h2>
         <p>Welcome to Word Rush!</p>
         <p>How to play!</p>
-    </div>
+    </div> -->
     <script src="{{ url_for('static',filename='Popup.js') }}"></script>
 </body>
 <body onload = "initKeyboard()">
-    <div class = "container-fluid">
-        <center><h1 id = "textBox">TYPE TEST</h1></center>
-        <ul id = "list">
-
-        </ul>
-        <div id="main" class = "keyboard">
-        </div>
+    <div class="container-fluid">
+        <h1 id="textBox"></h1>
+        <ul id = "list"></ul>
+        <div id="main" class = "keyboard"></div>
         <script src="{{ url_for('static',filename='app.js') }}"></script>
-    <script src="{{ url_for('static',filename='keyboard.js') }}"></script>
-    <script src="{{ url_for('static',filename='validator.js') }}"></script>
+        <script src="{{ url_for('static',filename='keyboard.js') }}"></script>
+        <script src="{{ url_for('static',filename='validator.js') }}"></script>
+    </div>
 </body>
 </html>

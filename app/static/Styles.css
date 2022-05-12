@@ -9,6 +9,17 @@ body {
   display: inline-block;
 }
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#textBox:empty::before{
+  content: "TYPE";
+  animation: blinker 1s linear infinite;
+}
+
 ul {
   list-style: none;
 }

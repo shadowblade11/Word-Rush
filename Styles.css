@@ -1,10 +1,10 @@
 @keyframes color {
-  0%   { background: #000000; }
-  20%  { background: #ffffff; }
-  40%  { background: #000000; }
-  60%  { background: #ffffff; }
-  80%  { background: #000000; }
-  100% { background: #ffffff; }
+  0%   { background: #ffffff; }
+  20%  { background: #000000; }
+  40%  { background: #ffffff; }
+  60%  { background: #000000; }
+  80%  { background: #ffffff; }
+  100% { background: #000000; }
 }
 
 body {

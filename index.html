@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Popup.css">
     <link rel="stylesheet" href="startButton.css">
     <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="countdown.css">
 
     
 </head>
@@ -26,15 +27,18 @@
     <div id= "startgame">
         <button class="button" id= "begin">START GAME!</button>
     </div>
-      <div id= "countdown" class="startB"></div>
-    <script src="Popup.js"></script>
+        <div id= "countdown" class="startB"></div>
+        <script src="Popup.js"></script>
+        <script src="countdown.js"></script>
+    <div id="timer"></div>
+    <script src="timer.js"></script>
 </body>
 <body onload = "initKeyboard()">
     <div class = "container-fluid">
         <center><h1 id = "textBox">TYPE TEST</h1></center>
         <div id="main" class = "keyboard"></div>
     <script src="keyboard.js"></script>
-    <script src="timer.js"></script>
+    
     
 </body>
 </html>

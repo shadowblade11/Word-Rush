@@ -1,9 +1,13 @@
 var validWordsArray = [];
 var invalidWordsArray = [];
+var lastWord = null;
 function getWord(word){
-    console.log(word);
-    validateWord(word);
-    addWord(word);
+    if(lastWord == null || lastWord != word){
+        lastWord = word;
+        console.log(word);
+        validateWord(word);
+        addWord(word);
+    }
 }
 
 function makeAjaxCall(word, callback) {

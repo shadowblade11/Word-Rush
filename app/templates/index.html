@@ -36,12 +36,14 @@
 </body>
 <body onload = "initKeyboard()">
     <div class="container-fluid">
+        <h1 id="letters"></h1>
         <h1 id="textBox"></h1>
         <ul id = "list"></ul>
         <div id="main" class = "keyboard"></div>
         <script src="{{ url_for('static',filename='app.js') }}"></script>
         <script src="{{ url_for('static',filename='keyboard.js') }}"></script>
         <script src="{{ url_for('static',filename='validator.js') }}"></script>
+        <script src="{{ url_for('static',filename='randomiser.js') }}"></script>
     </div>
 </body>
 </html>

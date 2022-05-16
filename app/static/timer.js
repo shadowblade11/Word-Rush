@@ -54,6 +54,7 @@ document.getElementById("begin").addEventListener("click", function(){
 
         function onTimesUp() {
         clearInterval(timerInterval);
+        var finalScore = totalPoints();
         }
 
         function startTimer() {

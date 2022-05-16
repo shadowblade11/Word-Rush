@@ -37,8 +37,9 @@ function totalPoints(){
         // console.log("basePoints = ", basePoints);
         // console.log("additional = ", additional);
         // console.log("multiplier = ", multiplier);
-        // console.log(word, "is equal to ", (basePoints+additional)*multiplier);
-        // console.log("total points = ",points);
-        return points;
+        console.log(word, "is equal to ", (basePoints+additional)*multiplier);
+        console.log("total points = ",points);
+        
     }
+    return points;
 }

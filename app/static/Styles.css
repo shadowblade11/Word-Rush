@@ -22,4 +22,14 @@ body {
 
 ul {
   list-style: none;
+  max-height:85%;
+  -webkit-column-count: 5;  /* Chrome/Opera, Safari */
+  -moz-column-count: 5; /* Mozilla Firefox */
+  column-count: 5;
+  column-gap: normal;
+  padding: 0;
+}
+
+li{
+  margin: 10px;
 }

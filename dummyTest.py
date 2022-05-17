@@ -12,7 +12,9 @@ import datetime
 # db.session.commit()
 
 
-# h = History(user_id=1,date=datetime.datetime.now(),points=100,wordAccuracy=50,totalWords=1000,letters="AB")
+# 1 USER CAN HAVE MULTIPLE HISTORY (MATCHES) 
+
+# h = History(user_id=1,date=datetime.datetime.now(),points=100,wordAccuracy=50,totalWords=1000,letters="CD")
 # db.session.add(h)
 # db.session.commit()
 

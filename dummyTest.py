@@ -19,5 +19,5 @@ import datetime
 # db.session.commit()
 
 
-user1 = User.query.get(1)
+user1 = User.query.all()
 print(user1)

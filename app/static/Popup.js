@@ -18,11 +18,6 @@ $(document).mouseup(function () {
     document.querySelector(".container-popup").style.display = "none";
 });
 
-//Needed for button
-document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
-    document.querySelector(".container-popup").style.display = "none";
-});
 
 
 

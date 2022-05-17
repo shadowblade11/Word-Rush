@@ -22,4 +22,4 @@ class History(db.Model):
     totalWords = db.Column(db.Integer, nullable=False)
     wordAccuracy = db.Column(db.Integer,nullable=False)
     def __repr__(self):
-        return f"<id = {self.id}, user = {self.user_id}, letters = {self.letters}, points = {self.points}, totalWords = {self.totalWords}, wordAccuracy = {self.wordAccuracy}>"
+        return f"<id = {self.id}, user = {self.user_id}, letters = {self.letters}, points = {self.points}, totalWords = {self.totalWords}, wordAccuracy = {self.wordAccuracy} date = {self.date}>"

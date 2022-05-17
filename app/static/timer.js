@@ -55,6 +55,19 @@ document.getElementById("begin").addEventListener("click", function(){
         function onTimesUp() {
         clearInterval(timerInterval);
         var finalScore = totalPoints();
+
+        document.querySelector(".popup").style.display = "block";
+        document.querySelector(".container-popup").style.display = "block";
+        document.querySelector(".popup").innerHTML=`
+                <button id="close">&times;</button>
+                <h4>Your Score Is:</h4>
+                <h1>${finalScore}</h1>
+        `;
+        
+        document.querySelector("#close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+            document.querySelector(".container-popup").style.display = "none";
+        });
         }
 
         function startTimer() {

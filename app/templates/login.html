@@ -7,6 +7,23 @@
     <title>Log In</title>
 </head>
 <body>
-    <h1>HELLO</h1>
+    <div>
+        <center><h1>LOG IN</h1></center>
+        <form method="POST" action="/login">
+            {{ form.hidden_tag() }}
+            {%if incorrectPassword %}
+            <center><h3>Password is incorrect</h3></center>
+            {% endif %}
+            <center><h3>username</h3>{{ form.username }}</center> <br>
+            <center><h3>password</h3>{{ form.password }}</center> <br>
+            <center>{{ form.remember_me.label }}{{ form.remember_me }}</center>
+            {%if noUser %}
+            <center><h3>Username is incorrect or doesn't exist</h3></center>
+            <center><a href="{{ url_for('register') }}">register?</a></center>
+            {% endif %}
+            <center><button type="submit">submit</button></center>
+        </form>
+    </div>
+
 </body>
 </html>

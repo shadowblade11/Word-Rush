@@ -11,35 +11,32 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='countdown.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='startButton.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='timer.css') }}">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body>
+
+<body onload = "initKeyboard()">
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg">
         <a class="nav-link" href="{{ url_for('login') }}">LOGIN</a>
     </nav>
+
     <div class="container-popup">
         <div class="popup">
-            <button id="close">&times;</button>
             <h2>Instructions</h2>
             <p>Welcome to Word Rush!</p>
             <p>How to play!</p>
+            <p>(click anywhere to close)</p>
         </div>
     </div>
-    <script src="{{ url_for('static',filename='Popup.js') }}"></script>
-    <div id= "startgame">
-        <button class="button" id= "begin">START GAME!</button>
-    </div>
         <div id= "countdown" class="startB"></div>
-        <script src="{{ url_for('static',filename='countdown.js') }}"></script>
     <div id="timer"></div>
-    <script src="{{ url_for('static',filename='timer.js') }}"></script>
-</body>
-<body onload = "initKeyboard()">
     <div class="container-fluid">
         <h1 id="letters"></h1>
         <h1 id="textBox"></h1>
+        <div id= "startgame">
+            <button class="button" id= "begin">START GAME!</button>
+        </div>
         <ul id = "list"></ul>
         <div id="main" class = "keyboard"></div>
         <script src="{{ url_for('static',filename='app.js') }}"></script>
@@ -47,6 +44,9 @@
         <script src="{{ url_for('static',filename='validator.js') }}"></script>
         <script src="{{ url_for('static',filename='pointSystem.js') }}"></script>
         <script src="{{ url_for('static',filename='randomiser.js') }}"></script>
+        <script src="{{ url_for('static',filename='timer.js') }}"></script>
+        <script src="{{ url_for('static',filename='countdown.js') }}"></script>
+        <script src="{{ url_for('static',filename='Popup.js') }}"></script>
     </div>
 </body>
 </html>

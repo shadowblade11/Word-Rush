@@ -38,24 +38,49 @@ function press(letter){
         }
     }
 }
-
-document.addEventListener('keydown', function(event){
-    let letter = event.key;
-    if (letter == "Backspace"){
-        press("DELETE");
-        return;
-    }
-    if (letter == "Enter"){
-        press("ENTER");
-        return;
-    }
-    if ((letter.length == 1) && ((letter >= 'a' && letter <= 'z') || (letter >= 'a' && letter <= 'z'))){
-        if (letter == " "){
+function activateKeyboard(){
+    document.addEventListener('keydown', function(event){
+        let letter = event.key;
+        if (letter == "Backspace"){
+            press("DELETE");
             return;
         }
-        if (letter >= 'a' && letter <= 'z'){
-            letter = letter.toUpperCase();
+        if (letter == "Enter"){
+            press("ENTER");
+            return;
         }
-        press(letter);
+        if ((letter.length == 1) && ((letter >= 'a' && letter <= 'z') || (letter >= 'a' && letter <= 'z'))){
+            if (letter == " "){
+                return;
+            }
+            if (letter >= 'a' && letter <= 'z'){
+                letter = letter.toUpperCase();
+            }
+            press(letter);
+    }
+    })
 }
-})
+
+
+// function deactivateKeyboard(){
+//     document.removeEventListener('keydown', function(event){
+//         let letter = event.key;
+//         if (letter == "Backspace"){
+//             press("DELETE");
+//             return;
+//         }
+//         if (letter == "Enter"){
+//             press("ENTER");
+//             return;
+//         }
+//         if ((letter.length == 1) && ((letter >= 'a' && letter <= 'z') || (letter >= 'a' && letter <= 'z'))){
+//             if (letter == " "){
+//                 return;
+//             }
+//             if (letter >= 'a' && letter <= 'z'){
+//                 letter = letter.toUpperCase();
+//             }
+//             press(letter);
+//     }
+//     })
+// }

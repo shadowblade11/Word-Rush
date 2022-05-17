@@ -20,7 +20,7 @@ document.getElementById("begin").addEventListener("click", function(){
         }
         };
 
-        const TIME_LIMIT = 60;
+        const TIME_LIMIT = 3;
         let timePassed = 0;
         let timeLeft = TIME_LIMIT;
         let timerInterval = null;
@@ -53,24 +53,21 @@ document.getElementById("begin").addEventListener("click", function(){
         startTimer();
 
         function onTimesUp() {
-        clearInterval(timerInterval);
-        var finalScore = totalPoints();
+            clearInterval(timerInterval);
+            var finalScore = totalPoints();
 
-        document.querySelector(".popup").style.display = "block";
-        document.querySelector(".container-popup").style.display = "block";
-        document.querySelector(".popup").innerHTML=`
-                <button id="close">&times;</button>
-                <h4>Your Score Is:</h4>
-                <h1>${finalScore}</h1>
-        `;
-        
-        document.querySelector("#close").addEventListener("click", function(){
-            document.querySelector(".popup").style.display = "none";
-            document.querySelector(".container-popup").style.display = "none";
-        });
+            document.querySelector(".popup").style.display = "block";
+            document.querySelector(".container-popup").style.display = "block";
+            document.querySelector(".popup").innerHTML=`
+                        <h4>Your Score Is:</h4>
+                        <h1>${finalScore}</h1>
+                        <p>(click anywhere to close)</p>
+                    `;
+            // deactivateKeyboard();
         }
 
         function startTimer() {
+            activateKeyboard();
         timerInterval = setInterval(() => {
             timePassed = timePassed += 1;
             timeLeft = TIME_LIMIT - timePassed;

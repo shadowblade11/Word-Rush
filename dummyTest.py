@@ -29,7 +29,7 @@ user1 = User.query.get(3)
 print(user1.histories)
 curdate = str(datetime.today().strftime('%d/%m/%Y')) +" 00:00:00"
 formated_date = datetime.strptime(curdate, '%d/%m/%Y %H:%M:%S')
-print(formated_date)
+print(formated_date.date())
 for i in user1.histories:
     print(i.date)
     print(str(i.date==formated_date))

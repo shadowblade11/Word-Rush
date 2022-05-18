@@ -1,4 +1,3 @@
-from urllib.request import Request
 from app import app,db
 from app.models import History, User
 from flask import render_template, url_for, request, redirect

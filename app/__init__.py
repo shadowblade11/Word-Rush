@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
-app.config['SECRET_KEY'] = "averysecretkeyindeedhmmmmmmm"
+# app.config['SECRET_KEY'] = "averysecretkeyindeedhmmmmmmm"
 login = LoginManager(app)
 
 from app import routes,models

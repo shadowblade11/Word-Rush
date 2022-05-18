@@ -20,7 +20,7 @@ document.getElementById("begin").addEventListener("click", function(){
         }
         };
 
-        const TIME_LIMIT = 60;
+        const TIME_LIMIT = 5;
         let timePassed = 0;
         let timeLeft = TIME_LIMIT;
         let timerInterval = null;
@@ -55,7 +55,6 @@ document.getElementById("begin").addEventListener("click", function(){
         function onTimesUp() {
             clearInterval(timerInterval);
             var finalScore = totalPoints();
-
             document.querySelector(".popup").style.display = "block";
             document.querySelector(".container-popup").style.display = "block";
             document.querySelector(".popup").innerHTML=`
@@ -64,6 +63,15 @@ document.getElementById("begin").addEventListener("click", function(){
                         <p>(click anywhere to close)</p>
                     `;
             // deactivateKeyboard();
+            var letters = document.getElementById("letters").innerText;
+            var totalWords = validWordsArray.length + invalidWordsArray.length
+            var wordAccuracy = (validWordsArray.length / totalWords) * 100
+            var year = new Date().getFullYear();
+            var month = new Date().getMonth()+1;
+            var day = new Date().getDate();
+            var fullDate = day+'/'+month+'/'+year+" 00:00:00"
+            console.log(fullDate);
+            submit(finalScore,letters,totalWords,wordAccuracy,fullDate)
         }
 
         function startTimer() {

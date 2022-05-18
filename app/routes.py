@@ -3,7 +3,7 @@ from app.models import History, User
 from flask import render_template, url_for, request, redirect
 from app.forms import LoginForm,RegisterForm
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import current_user, login_user, logout_user
+from flask_login import current_user, login_user, logout_user, login_required
 from datetime import datetime
 @app.route('/')
 @app.route('/index')
@@ -39,12 +39,32 @@ def register():
             new_user = User(username=form.username.data, password_hash=hashed_password)
             db.session.add(new_user)
             db.session.commit()
-            return f"<h1>User has been created</h1>"
+            login_user(new_user)
+            return redirect(url_for('index'))
         except:
             return render_template("register.html", form=form, username=form.username.data)
     
     return render_template("register.html", form=form)
 
+
+@app.route('/matchHistory')
+@login_required
+def matchHistory():
+    data = current_user.histories
+    sortedData = []
+    for i in data:
+        sortedData.append(
+        {
+            "date":str(i.date.date()),
+            "letters":i.letters,
+            "points":i.points,
+            "totalWords":i.totalWords,
+            "wordAccuracy":i.wordAccuracy
+        }
+        )
+    sortedData.sort(key=lambda x : x.get('date'), reverse=True)
+    # print(sortedData)
+    return render_template('matchHistory.html', data=sortedData)
 
 @app.route('/logout')
 def logout():

@@ -1,9 +1,11 @@
+from urllib.request import Request
 from app import app,db
-from app.models import User
-from flask import render_template, url_for, flash, redirect
+from app.models import History, User
+from flask import render_template, url_for, request, redirect
 from app.forms import LoginForm,RegisterForm
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, logout_user
+from datetime import datetime
 @app.route('/')
 @app.route('/index')
 def index():
@@ -49,3 +51,27 @@ def register():
 def logout():
     logout_user()
     return redirect(url_for('index'))
+
+
+
+@app.route('/submit', methods=['GET', 'POST'])
+def submit():
+    if request.method == "POST":
+        if current_user.is_authenticated:
+            # print("current user is "+ str(current_user.id))
+            points = request.form['points']
+            letters = request.form['letters']
+            wordAccuracy = request.form['wordAccuracy']
+            totalWords = request.form['totalwords']
+            date = request.form['date']
+            formatted_date = datetime.strptime(date,'%d/%m/%Y %H:%M:%S')#converts from string to datetime object
+            # print(str(formatted_date))
+            h = History(user_id=current_user.id,
+            date=formatted_date,letters=letters,
+            points=points,totalWords=totalWords,wordAccuracy=wordAccuracy)
+
+            db.session.add(h)
+            db.session.commit()
+            return f"<h1>Hello</h1>"
+    else:
+        return f"<h1>wrong data</h1>"

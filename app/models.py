@@ -8,6 +8,8 @@ class User(UserMixin,db.Model):
     histories = db.relationship('History', backref='user')
     def __repr__(self):
         return f"<id = {self.id}, user = {self.username}, histories = {self.histories}"
+    def getHistory(self):
+        return self.histories
 
 @login.user_loader
 def load_user(id):

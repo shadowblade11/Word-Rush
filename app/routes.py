@@ -76,19 +76,16 @@ def logout():
 @app.route('/submit', methods=['GET', 'POST'])
 def submit():
     if request.method == "POST":
+        points = request.form['points']
+        letters = request.form['letters']
+        wordAccuracy = request.form['wordAccuracy']
+        totalWords = request.form['totalwords']
+        date = request.form['date']
+        formatted_date = datetime.strptime(date,'%d/%m/%Y %H:%M:%S')#converts from string to datetime object
         if current_user.is_authenticated:
-            # print("current user is "+ str(current_user.id))
-            points = request.form['points']
-            letters = request.form['letters']
-            wordAccuracy = request.form['wordAccuracy']
-            totalWords = request.form['totalwords']
-            date = request.form['date']
-            formatted_date = datetime.strptime(date,'%d/%m/%Y %H:%M:%S')#converts from string to datetime object
-            # print(str(formatted_date))
             h = History(user_id=current_user.id,
             date=formatted_date,letters=letters,
             points=points,totalWords=totalWords,wordAccuracy=wordAccuracy)
-
             db.session.add(h)
             db.session.commit()
             return f"<h1>Hello</h1>"

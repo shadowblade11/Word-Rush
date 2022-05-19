@@ -3,7 +3,7 @@ document.getElementById("begin").addEventListener("click", function(){
 
     var deleteButton = document.getElementById("begin");
     deleteButton.parentNode.removeChild(deleteButton);
-    
+
     var downloadTimer = setInterval(function(){
     if(timeleft <= 0){
         clearInterval(downloadTimer);

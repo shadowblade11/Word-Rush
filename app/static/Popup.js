@@ -17,13 +17,9 @@ $(document).mouseup(function () {
     popup.hide(500);
     document.querySelector(".container-popup").style.display = "none";
     document.getElementById("audio").play();
+    document.getElementById("audio").volume = 0.03;
 });
 
-//Needed for button
-document.querySelector("#close").addEventListener("click", function(){
-    document.querySelector(".popup").style.display = "none";
-    document.querySelector(".container-popup").style.display = "none";
-});
 
 
 

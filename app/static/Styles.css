@@ -33,3 +33,11 @@ ul {
 li{
   margin: 10px;
 }
+
+html {
+  background-color: #ffa500;
+}
+
+#keys{
+  background-color: #ffa500;
+}

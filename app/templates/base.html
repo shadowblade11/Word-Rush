@@ -33,6 +33,7 @@
         <a class="nav-link" href="{{ url_for('free_play') }}">Free Play</a>
         <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
         <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.png" id="myImg" width="25" height="25" /></button>
+        <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
     </nav>
     {% block content %}
     {% endblock %}

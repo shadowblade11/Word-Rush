@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('.popup').hide()
 });
 
-$(document).mouseup(function () {
+$(document).one("click", function () {
     var popup = $(".popup");
     popup.hide(500);
     document.querySelector(".container-popup").style.display = "none";

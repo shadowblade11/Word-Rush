@@ -9,7 +9,7 @@ function imageChange()
         img;
         
     } else {
-        document.getElementById("myImg").src = "https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.pnggit";
+        document.getElementById("myImg").src = "https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.png";
         document.getElementById("audio").pause();
     }
 }

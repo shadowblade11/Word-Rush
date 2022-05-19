@@ -9,12 +9,12 @@
     {% else %}
     <title> blank home page </title>
     {% endif %}
-    <link rel="stylesheet" href="{{ url_for('static',filename='Styles.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='keyboard.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='Popup.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='countdown.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='startButton.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static',filename='timer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/Styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/keyboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/Popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/countdown.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/startButton.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='CSS/timer.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
@@ -38,16 +38,16 @@
     </nav>
     {% block content %}
     {% endblock %}
-    <script src="{{ url_for('static',filename='app.js') }}"></script>
-    <script src="{{ url_for('static',filename='keyboard.js') }}"></script>
-    <script src="{{ url_for('static',filename='validator.js') }}"></script>
-    <script src="{{ url_for('static',filename='pointSystem.js') }}"></script>
-    <script src="{{ url_for('static',filename='randomiser.js') }}"></script>
-    <script src="{{ url_for('static',filename='timer.js') }}"></script>
-    <script src="{{ url_for('static',filename='countdown.js') }}"></script>
-    <script src="{{ url_for('static',filename='Popup.js') }}"></script>
-    <script src="{{ url_for('static',filename='submit.js') }}"></script>
-    <script src="{{ url_for('static',filename='imageChange.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/app.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/keyboard.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/validator.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/pointSystem.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/randomiser.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/timer.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/countdown.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/Popup.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/submit.js') }}"></script>
+    <script src="{{ url_for('static',filename='JS/imageChange.js') }}"></script>
 </div>
 </body>
 </html>

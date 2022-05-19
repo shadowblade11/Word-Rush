@@ -34,9 +34,9 @@
     <script src="{{ url_for('static',filename='timer.js') }}"></script>
     <div>
         <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
-        <button type="submit" img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/750px-Speaker_Icon.svg.png"></button>
+        <button type="button" onclick="imageChange()"> <img src="https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.png" id="myImg" width="25" height="25" /></button>
     </div>
-    
+    <script src="{{ url_for('static',filename='imageChange.js') }}"></script>
 </body>
 <body onload = "initKeyboard()">
     <div class="container-fluid">

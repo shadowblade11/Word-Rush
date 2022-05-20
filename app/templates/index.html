@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
-<body onload = "initKeyboard()">
+<body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg">
         {% if current_user.is_anonymous %}
@@ -24,11 +24,19 @@
         {% else %}
             <a class="nav-link" href="{{ url_for('matchHistory') }}">Match History</a>
             <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+            <a class="nav-link" href="{{ url_for('daily') }}">Daily</a>
         {% endif %}
+        <a class="nav-link" href="{{ url_for('free_play') }}">Free Play</a>
         <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
         <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.png" id="myImg" width="25" height="25" /></button>
     </nav>
-
+    {% if freeplay %}
+        <p hidden = "true" id="booleanStatement">True</p>
+        <h1>Free Play Mode</h1>
+    {% else %}
+        <p hidden = "true" id="booleanStatement">False</p>
+        <h1>Daily Mode</h1>
+    {% endif %}
     <div class="container-popup">
         <div class="popup">
             <h2>Instructions</h2>
@@ -39,8 +47,6 @@
     </div>
         <div id= "countdown" class="startB"></div>
     <div id="timer"></div>
-</body>
-<body onload = "initKeyboard()">
     <div class="container-fluid">
         <h1 id="letters"></h1>
         <h1 id="textBox"></h1>

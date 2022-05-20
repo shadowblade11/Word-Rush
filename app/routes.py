@@ -8,7 +8,10 @@ from datetime import datetime
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template("index.html")
+    if current_user.is_authenticated:
+        return render_template("index.html", freeplay=False)
+    else:
+        return render_template('index.html', freeplay=True)
 
 
 @app.route('/login', methods=['GET','POST'])
@@ -63,7 +66,6 @@ def matchHistory():
         }
         )
     sortedData.sort(key=lambda x : x.get('date'), reverse=True)
-    # print(sortedData)
     return render_template('matchHistory.html', data=sortedData)
 
 @app.route('/logout')
@@ -91,3 +93,13 @@ def submit():
             return f"<h1>Hello</h1>"
     else:
         return f"<h1>wrong data</h1>"
+
+@app.route('/free_play')
+def free_play():
+    return render_template('index.html', freeplay=True)
+
+
+@app.route('/daily')
+@login_required
+def daily():
+    return render_template('index.html',freeplay=False)

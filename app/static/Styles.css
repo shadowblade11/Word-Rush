@@ -28,16 +28,24 @@ ul {
   column-count: 5;
   column-gap: normal;
   padding: 0;
+  color: whitesmoke;
 }
 
 li{
   margin: 10px;
 }
 
-html {
-  background-color: #ffa500;
+#keys{
+  background-color: #414141;
 }
 
-#keys{
-  background-color: #ffa500;
+html{
+  background-color: #414141;
+}
+
+h1{
+  color: whitesmoke;
+}
+nav{
+  background-color: black;
 }

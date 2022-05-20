@@ -15,9 +15,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
-<body>
+<body id="keys">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" id="nav">
         {% if current_user.is_anonymous %}
             <a class="nav-link" href="{{ url_for('login') }}">LOGIN</a>
             <a class="nav-link" href="{{ url_for('register') }}">REGISTER</a>

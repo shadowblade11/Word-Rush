@@ -109,6 +109,8 @@ def daily():
     for i in data:
         dates.append(str(i.date.date()))
     dates.sort(reverse=True)
+    if dates==[]:
+        return render_template('index.html',freeplay=False,Played=False)
     if dates[0] == str(date.today()):
         return render_template('index.html',freeplay=False,Played=True)
     else:

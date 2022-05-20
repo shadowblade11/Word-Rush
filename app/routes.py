@@ -136,4 +136,5 @@ def leaderboard():
                 }
             )
     print(leaderboard)
+    leaderboard.sort(key = lambda x : x.get('points'), reverse=True)
     return render_template('leaderboard.html',title="Leaderboard",data=leaderboard)

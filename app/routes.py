@@ -4,14 +4,16 @@ from flask import render_template, url_for, request, redirect
 from app.forms import LoginForm,RegisterForm
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, logout_user, login_required
-from datetime import datetime
+from datetime import date, datetime
 @app.route('/')
 @app.route('/index')
 def index():
     if current_user.is_authenticated:
-        return render_template("index.html", freeplay=False)
+        # return render_template("index.html", freeplay=False)
+        return redirect(url_for('daily'))
     else:
-        return render_template('index.html', freeplay=True)
+        # return render_template('index.html', freeplay=True)
+        return redirect(url_for('free_play'))
 
 
 @app.route('/login', methods=['GET','POST'])
@@ -25,7 +27,7 @@ def login():
             if check_password_hash(user.password_hash, form.password.data):
                 # return f"<h1>Hello {form.username.data}</h1>"
                 login_user(user, remember=form.remember_me.data)
-                return render_template("index.html")
+                return redirect(url_for('daily'))
             else:
                 return render_template("login.html", form=form, incorrectPassword=True)
         else:
@@ -102,4 +104,12 @@ def free_play():
 @app.route('/daily')
 @login_required
 def daily():
-    return render_template('index.html',freeplay=False)
+    data = current_user.histories
+    dates = []
+    for i in data:
+        dates.append(str(i.date.date()))
+    dates.sort(reverse=True)
+    if dates[0] == str(date.today()):
+        return render_template('index.html',freeplay=False,Played=True)
+    else:
+        return render_template('index.html',freeplay=False,Played=False)

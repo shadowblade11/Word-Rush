@@ -45,14 +45,18 @@
             <p>(click anywhere to close)</p>
         </div>
     </div>
-        <div id= "countdown" class="startB"></div>
+    <div id= "countdown" class="startB"></div>
     <div id="timer"></div>
     <div class="container-fluid">
         <h1 id="letters"></h1>
         <h1 id="textBox"></h1>
+        {% if not Played %}
         <div id= "startgame">
             <button class="button" id= "begin">START GAME!</button>
         </div>
+        {% else %}
+        <p>It appears you've already played the daily game today. Please play the free play mode</p>
+        {% endif %}
         <ul id = "list"></ul>
         <div id="main" class = "keyboard"></div>
         <script src="{{ url_for('static',filename='app.js') }}"></script>

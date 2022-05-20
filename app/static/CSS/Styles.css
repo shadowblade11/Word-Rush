@@ -36,11 +36,11 @@ li{
 }
 
 #keys{
-  background-color: #414141;
+  background-color: #2E5984;
 }
 
 html{
-  background-color: #414141;
+  background-color: #2E5984;
 }
 
 h1{
@@ -48,6 +48,7 @@ h1{
 }
 nav{
   background-color: black;
+  padding-left: 0.5%;
   
 }
 
@@ -75,3 +76,12 @@ th, td{
   background-color: #bdbdbd;
 }
 
+#user{
+  color: #2e5dff;
+  font-weight: bold;
+}
+
+#myImg{
+  width: 25px;
+  height: 25px;
+}

@@ -115,3 +115,25 @@ def daily():
         return render_template('index.html',freeplay=False,Played=True, title="daily")
     else:
         return render_template('index.html',freeplay=False,Played=False, title="daily")
+
+@app.route('/leaderboard')
+def leaderboard():
+    leaderboard=[]
+    usersList = User.query.all()
+    for user in usersList:
+        dates = []
+        user_histories = user.histories
+        print(user_histories)
+        if user_histories == []:
+            continue
+        if str(user_histories[-1].date.date()) == str(date.today()):
+            leaderboard.append(
+                {
+                    "username":user.username,
+                    "points":user_histories[-1].points,
+                    "totalWords":user_histories[-1].totalWords,
+                    "wordAccuracy":user_histories[-1].wordAccuracy
+                }
+            )
+    print(leaderboard)
+    return render_template('leaderboard.html',title="leaderboard",data=leaderboard)

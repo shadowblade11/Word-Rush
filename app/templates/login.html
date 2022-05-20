@@ -7,14 +7,14 @@
             {%if incorrectPassword %}
             <center><h3>Password is incorrect</h3></center>
             {% endif %}
-            <center><h3>username</h3>{{ form.username }}</center> <br>
-            <center><h3>password</h3>{{ form.password }}</center> <br>
-            <center>{{ form.remember_me.label }}{{ form.remember_me }}</center>
+            <center><h3>Username</h3>{{ form.username }}</center> <br>
+            <center><h3>Password</h3>{{ form.password }}</center> <br>
+            <center><h6>Remeber me? {{ form.remember_me }}</h6></center>
             {%if noUser %}
             <center><h3>Username is incorrect or doesn't exist</h3></center>
             <center><a href="{{ url_for('register') }}">register?</a></center>
             {% endif %}
-            <center><button type="submit">submit</button></center>
+            <center><button type="submit">Submit</button></center>
         </form>
     </div>
 {% endblock %}

@@ -6,8 +6,6 @@ function imageChange()
         document.getElementById("audio").play();
         document.getElementById("audio").volume = 0.03;
         var img = document.getElementById("myImg").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/750px-Speaker_Icon.svg.png"
-        img.style.height = '100';
-        img.style.width = '100';
         img;
         
     } else {

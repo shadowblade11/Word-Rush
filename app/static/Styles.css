@@ -48,8 +48,30 @@ h1{
 }
 nav{
   background-color: black;
+  
 }
 
 #daily-text{
   color: whitesmoke;
 }
+h3{
+  color: whitesmoke;
+}
+
+h6{
+  color: whitesmoke;
+}
+
+table.center{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+  
+}
+
+th, td{
+  background-color: #bdbdbd;
+}
+

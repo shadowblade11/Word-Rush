@@ -62,6 +62,8 @@ document.getElementById("begin").addEventListener("click", function(){
                         <h1>${finalScore}</h1>
                         <p>(click anywhere to close)</p>
                     `;
+            document.getElementById('reset').hidden = false;
+            
             // deactivateKeyboard();
             var letters = document.getElementById("letters").innerText;
             var totalWords = validWordsArray.length + invalidWordsArray.length

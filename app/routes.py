@@ -32,7 +32,7 @@ def login():
                 return render_template("login.html", form=form, incorrectPassword=True)
         else:
             return render_template("login.html", form=form, noUser = True)
-    return render_template("login.html", form=form)
+    return render_template("login.html", form=form, title="login")
 
 
 @app.route('/register',methods=['GET','POST'])
@@ -49,7 +49,7 @@ def register():
         except:
             return render_template("register.html", form=form, username=form.username.data)
     
-    return render_template("register.html", form=form)
+    return render_template("register.html", form=form, title="register")
 
 
 @app.route('/matchHistory')
@@ -68,7 +68,7 @@ def matchHistory():
         }
         )
     sortedData.sort(key=lambda x : x.get('date'), reverse=True)
-    return render_template('matchHistory.html', data=sortedData)
+    return render_template('matchHistory.html', data=sortedData, title="match history")
 
 @app.route('/logout')
 def logout():
@@ -98,7 +98,7 @@ def submit():
 
 @app.route('/free_play')
 def free_play():
-    return render_template('index.html', freeplay=True)
+    return render_template('index.html', freeplay=True, title="free play")
 
 
 @app.route('/daily')
@@ -110,8 +110,8 @@ def daily():
         dates.append(str(i.date.date()))
     dates.sort(reverse=True)
     if dates==[]:
-        return render_template('index.html',freeplay=False,Played=False)
+        return render_template('index.html',freeplay=False,Played=False, title="daily")
     if dates[0] == str(date.today()):
-        return render_template('index.html',freeplay=False,Played=True)
+        return render_template('index.html',freeplay=False,Played=True, title="daily")
     else:
-        return render_template('index.html',freeplay=False,Played=False)
+        return render_template('index.html',freeplay=False,Played=False, title="daily")

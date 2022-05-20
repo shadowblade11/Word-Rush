@@ -36,7 +36,8 @@
             <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
             <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
         {% if not current_user.is_anonymous %}
-            <p class="nav-link" id="user"> Hello, {{current_user.username}} </p>
+        <a class="nav-link" href="{{ url_for('matchHistory') }}"> Hello, {{current_user.username}}</a>
+            <p class="nav-link" id="user"> </p>
         {% endif %}
     </nav>
     {% block content %}

@@ -32,7 +32,7 @@ def login():
                 return render_template("login.html", form=form, incorrectPassword=True)
         else:
             return render_template("login.html", form=form, noUser = True)
-    return render_template("login.html", form=form, title="login")
+    return render_template("login.html", form=form, title="Login")
 
 
 @app.route('/register',methods=['GET','POST'])
@@ -49,7 +49,7 @@ def register():
         except:
             return render_template("register.html", form=form, username=form.username.data)
     
-    return render_template("register.html", form=form, title="register")
+    return render_template("register.html", form=form, title="Register")
 
 
 @app.route('/matchHistory')
@@ -68,7 +68,7 @@ def matchHistory():
         }
         )
     sortedData.sort(key=lambda x : x.get('date'), reverse=True)
-    return render_template('matchHistory.html', data=sortedData, title="match history")
+    return render_template('matchHistory.html', data=sortedData, title="Match History")
 
 @app.route('/logout')
 def logout():
@@ -98,7 +98,7 @@ def submit():
 
 @app.route('/free_play')
 def free_play():
-    return render_template('index.html', freeplay=True, title="free play")
+    return render_template('index.html', freeplay=True, title="Free Play")
 
 
 @app.route('/daily')
@@ -110,8 +110,31 @@ def daily():
         dates.append(str(i.date.date()))
     dates.sort(reverse=True)
     if dates==[]:
-        return render_template('index.html',freeplay=False,Played=False, title="daily")
+        return render_template('index.html',freeplay=False,Played=False, title="Daily")
     if dates[0] == str(date.today()):
-        return render_template('index.html',freeplay=False,Played=True, title="daily")
+        return render_template('index.html',freeplay=False,Played=True, title="Daily")
     else:
-        return render_template('index.html',freeplay=False,Played=False, title="daily")
+        return render_template('index.html',freeplay=False,Played=False, title="Daily")
+
+@app.route('/leaderboard')
+def leaderboard():
+    leaderboard=[]
+    usersList = User.query.all()
+    for user in usersList:
+        dates = []
+        user_histories = user.histories
+        print(user_histories)
+        if user_histories == []:
+            continue
+        if str(user_histories[-1].date.date()) == str(date.today()):
+            leaderboard.append(
+                {
+                    "username":user.username,
+                    "points":user_histories[-1].points,
+                    "totalWords":user_histories[-1].totalWords,
+                    "wordAccuracy":user_histories[-1].wordAccuracy
+                }
+            )
+    print(leaderboard)
+    leaderboard.sort(key = lambda x : x.get('points'), reverse=True)
+    return render_template('leaderboard.html',title="Leaderboard",data=leaderboard)

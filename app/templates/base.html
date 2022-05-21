@@ -35,6 +35,7 @@
             <a class="nav-link" href="{{ url_for('free_play') }}">Free Play</a>
             <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
             <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
+            <button onclick="share()" hidden="true" id="shareBtn">Share</button>>
         {% if not current_user.is_anonymous %}
         <a class="nav-link" href="{{ url_for('matchHistory') }}"> Hello, {{current_user.username}}</a>
         {% endif %}

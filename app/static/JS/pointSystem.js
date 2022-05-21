@@ -43,3 +43,16 @@ function totalPoints(){
     }
     return points;
 }
+
+function share(){
+    var mode = document.getElementById("mode");
+    navigator.clipboard.writeText(
+        mode.innerText+
+        `
+        ${letters}
+        ${finalScore}pts
+        ${wordAccuracy}%
+        ${date}
+        `
+    );
+}

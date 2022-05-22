@@ -12,16 +12,15 @@ class WebsiteCase(unittest.TestCase):
             'sqlite:///'+os.path.join(basedir,'test.db')
         self.app = app.test_client() #Creates virtual test environemt
         db.create_all()
+        #Creates a user and adds it to the db
         hashed_password = generate_password_hash("Case")
         u1 = User(username="Test",password_hash=hashed_password)
-        # u2 = User('''Input your db data here''')
-        # lab = Lab(lab='test-lab', time='now')
         db.session.add(u1)
         date_time_str = '18/09/2021 00:00:00'
         date_time_obj = datetime.strptime(date_time_str, '%d/%m/%Y %H:%M:%S')
+        #Creates a history and adds it to the db, linking it to user
         h1 = History(user_id=1,date=date_time_obj,points=100,wordAccuracy=50,totalWords=1000,letters="AZ")
         db.session.add(h1)
-        # db.session.add(lab)
         db.session.commit()
 
     def tearDown(self):
@@ -43,6 +42,13 @@ class WebsiteCase(unittest.TestCase):
         db.session.add(u2)
         with self.assertRaises(sqlalchemy.exc.IntegrityError):
             self.assertRaises(db.session.commit())
+        
+    def test_user_add_new_user(self):
+        u2 = User(username="DifferentName",password_hash="hashed_password")
+        db.session.add(u2)
+        db.session.commit()
+        totalUsers = len(User.query.all())
+        self.assertEqual(totalUsers,2)
 
     def test_history_date(self):
         u = User.query.get(1)
@@ -79,6 +85,14 @@ class WebsiteCase(unittest.TestCase):
         totalWords = h.totalWords
         self.assertEqual(totalWords,1000)
 
+    def test_history_add_new_game(self):
+        date_time_str = '18/09/2021 00:00:00'
+        date_time_obj = datetime.strptime(date_time_str, '%d/%m/%Y %H:%M:%S')
+        h2 = History(user_id=1,date=date_time_obj,points=100,wordAccuracy=50,totalWords=1000,letters="AZ")
+        db.session.add(h2)
+        db.session.commit()
+        u = User.query.get(1)
+        self.assertEqual(len(u.histories),2)
 
 
 if __name__ == '__main__':

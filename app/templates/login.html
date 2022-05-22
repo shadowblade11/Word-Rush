@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 {% block content %}
-    <div>
-        <center><h1>LOG IN</h1></center>
+    <div class="html-center">
+        <h1>LOG IN</h1>
         <form method="POST" action="/login">
             {{ form.hidden_tag() }}
             {%if incorrectPassword %}
-            <center><h3>Password is incorrect</h3></center>
+            <h3>Password is incorrect</h3>
             {% endif %}
-            <center><h3>Username</h3>{{ form.username }}</center> <br>
-            <center><h3>Password</h3>{{ form.password }}</center> <br>
-            <center><h6>Remeber me? {{ form.remember_me }}</h6></center>
+            <h3>Username</h3>{{ form.username }} <br>
+            <h3>Password</h3>{{ form.password }} <br>
+            <h6>Remeber me? {{ form.remember_me }}</h6>
             {%if noUser %}
-            <center><h3>Username is incorrect or doesn't exist</h3></center>
-            <center><a href="{{ url_for('register') }}">register?</a></center>
+            <h3>Username is incorrect or doesn't exist</h3>
+            <a href="{{ url_for('register') }}">register?</a>
             {% endif %}
-            <center><button type="submit">Submit</button></center>
+            <button type="submit">Submit</button>
         </form>
     </div>
 {% endblock %}

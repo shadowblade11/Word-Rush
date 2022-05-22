@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
     {% if freeplay %}
-        <p hidden = "true" id="booleanStatement">True</p>
+        <p hidden id="booleanStatement">True</p>
         <h1 id="mode">Free Play Mode</h1>
     {% else %}
-        <p hidden = "true" id="booleanStatement">False</p>
+        <p hidden id="booleanStatement">False</p>
         <h1 id="mode">Daily Mode</h1>
     {% endif %}
     <div class="container-popup">
@@ -25,7 +25,7 @@
     </div>
     <div id= "countdown" class="startB"></div>
     <div id="timer"></div>
-    <div class="container-fluid">
+    <div class="container-fluid"></div>
         <h1 id="letters"></h1>
         <h1 id="textBox"></h1>
         {% if not Played %}

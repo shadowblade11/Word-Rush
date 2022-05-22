@@ -3,13 +3,12 @@ from app import login
 from flask_login import UserMixin
 class User(UserMixin,db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(64), index=True, unique=True)
-    password_hash = db.Column(db.String(128))
+    username = db.Column(db.String(64), index=True, unique=True, nullable=False)
+    password_hash = db.Column(db.String(128), nullable=False)
     histories = db.relationship('History', backref='user')
     def __repr__(self):
         return f"<id = {self.id}, user = {self.username}, histories = {self.histories}"
-    def getHistory(self):
-        return self.histories
+
 
 @login.user_loader
 def load_user(id):

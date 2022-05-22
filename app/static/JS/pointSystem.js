@@ -47,12 +47,18 @@ function totalPoints(){
 function share(){
     var mode = document.getElementById("mode");
     navigator.clipboard.writeText(
+       'Word Rush' + '\n'+
         mode.innerText+
         `
-        ${letters}
-        ${finalScore}pts
-        ${wordAccuracy}%
-        ${date}
+    ${letters}
+    ${finalScore}pts
+    ${wordAccuracy}%
+    ${date}
         `
     );
+}
+
+function outShare(){
+    var tooltip = document.getElementById("myToolTip");
+    tooltip.innerHTML = "Copied to Clipboard";
 }

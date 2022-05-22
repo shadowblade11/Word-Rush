@@ -1,20 +1,25 @@
 {% extends "base.html" %}
 {% block content %}
     {% if freeplay %}
+        <!-- Title for Free Play Mode -->
         <p hidden id="booleanStatement">True</p>
         <h1 id="mode">Free Play Mode</h1>
     {% else %}
         <p hidden id="booleanStatement">False</p>
+        <!-- Title for Daily Mode -->
         <h1 id="mode">Daily Mode</h1>
     {% endif %}
-    <div class="container-popup">
+    <!-- Div for the instructions popup -->
+    <!-- The class 'container-popup' links to the code in the Popup.css file and creates an overlay that blocks the background -->
+    <!-- The class 'popup' also links to the code in Popup.css as well as Popup.js. This div provides the necessary content of the popup-->
+    <div class="container-popup"> 
         <div class="popup">
             <h2>Welcome to Word Rush!</h2>
-            <p>This is a typing based game</p>
-            <p>You should definitely make an account to unlock daily mode</p>
+            <p>This is a typing based game.</p>
+            <p>You should definitely make an account to unlock daily mode!</p>
             <h4>How to play!</h4>
             <p>You need to type as many words as you can in a minute! 
-            However, the words need to contains specified letters in order to be counted</p>
+            However, the words need to contains specified letters in order to be counted.</p>
             <p>For example: The letters TH<br>
             POOL = 0pt (doesn't have T or H)<br>
             HER = 35pt (contains a H so a base of 10*(number of letters)pt + 5 for each use of the specified letters)<br>
@@ -23,18 +28,22 @@
 
         </div>
     </div>
-    <div id= "countdown" class="startB"></div>
+    <!-- Div for the countdown timer to link JS and CSS -->
+    <div id= "countdown" class="startB"></div> 
     <div id="timer"></div>
     <div class="container-fluid"></div>
         <h1 id="letters"></h1>
         <h1 id="textBox"></h1>
         {% if not Played %}
+        <!-- Div for start button, contains the id/class that link to the JS and CSS and the button itself -->
         <div id= "startgame">
             <button class="button" id= "begin">START GAME!</button>
         </div>
         {% else %}
+        <!-- Text that is displayed when the daily game has already been played. -->
         <p id="daily-text">It appears you've already played the daily game today. Please play the free play mode.</p>
         {% endif %}
         <ul id = "list"></ul>
+        <!-- Div for keyboard interface -->
         <div id="main" class = "keyboard"></div>
         {% endblock %}

@@ -1,10 +1,15 @@
+/* The javascript was from https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ howerver,
+the actual content was modified to fit our game*/
+
+// Our own added variables
 var finalScore;
 var letters;
 var wordAccuracy;
 var date;
+
 document.getElementById("begin").addEventListener("click", function(){
 
-    setTimeout(function(){
+    setTimeout(function(){ //Timer will appear after 4.5 seconds
 
         const FULL_DASH_ARRAY = 283;
         const WARNING_THRESHOLD = 20;
@@ -24,7 +29,7 @@ document.getElementById("begin").addEventListener("click", function(){
         }
         };
 
-        const TIME_LIMIT = 5;
+        const TIME_LIMIT = 60;
         let timePassed = 0;
         let timeLeft = TIME_LIMIT;
         let timerInterval = null;
@@ -58,28 +63,32 @@ document.getElementById("begin").addEventListener("click", function(){
 
         function onTimesUp() {
             clearInterval(timerInterval);
+            // CODE BETWEEN HERE IS OUR OWN CODE
             finalScore = totalPoints();
+            //Gets instruction popup structure
             document.querySelector(".popup").style.display = "block";
             document.querySelector(".container-popup").style.display = "block";
+            //Converts instruction popup to a scorecard by replacing text with new text
             document.querySelector(".popup").innerHTML=`
                         <h4>Your Score Is:</h4>
                         <h1>${finalScore}</h1>
                         <p>(click anywhere to close)</p>
                     `;
+            //Displays play again and share button once time us up 
             document.getElementById('reset').hidden = false;
             document.getElementById('shareBtn').hidden = false;
-            // deactivateKeyboard();
-            letters = document.getElementById("letters").innerText;
-            var totalWords = validWordsArray.length + invalidWordsArray.length
-            wordAccuracy = (validWordsArray.length / totalWords) * 100
+            letters = document.getElementById("letters").innerText; //Gets the two letters
+            var totalWords = validWordsArray.length + invalidWordsArray.length //Get the total words typed
+            wordAccuracy = (validWordsArray.length / totalWords) * 100 //Checks and gets the word accuracy
             var year = new Date().getFullYear();
             var month = new Date().getMonth()+1;
             var day = new Date().getDate();
             date = day+'/'+month+'/'+year;
-            var fullDate = day+'/'+month+'/'+year+" 00:00:00"
+            var fullDate = day+'/'+month+'/'+year+" 00:00:00" //Formatted date for database
             console.log(fullDate);
-            submit(finalScore,letters,totalWords,wordAccuracy,fullDate)
+            submit(finalScore,letters,totalWords,wordAccuracy,fullDate) //Submits/inputs to the database
         }
+        // CODE BETWEEN HERE IS OUR OWN CODE
 
         function startTimer() {
             activateKeyboard();
@@ -141,5 +150,5 @@ document.getElementById("begin").addEventListener("click", function(){
             .getElementById("base-timer-path-remaining")
             .setAttribute("stroke-dasharray", circleDasharray);
         }
-    }, 5000);
+    }, 4500);
 });

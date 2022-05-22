@@ -1,0 +1,1432 @@
+* commit 4d41d507234f137847aee101b69fc979636bad4b (HEAD -> main, origin/main, origin/HEAD)
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 23 01:48:05 2022 +0800
+| 
+|     removed commented lines
+| 
+* commit 5965e8dbaa20aae4c81bd822de21803edd8263c8
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 23 01:18:10 2022 +0800
+| 
+|     ran the files through the validator, made some changes
+|   
+*   commit f8f47ca45103dcb41fa2da1443c4e2f42e79df1b
+|\  Merge: 1bbf608 d681a79
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Mon May 23 01:00:33 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/shadowblade11/Word-Rush into main
+| | 
+| * commit d681a79d0b63ec44cea3990b8b6ee68e6da4457c
+| | Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| | Date:   Mon May 23 01:00:14 2022 +0800
+| | 
+| |     Update README.md
+| |     
+| |     need Jeremy to check
+| | 
+* | commit 1bbf6084088b74bd3aa6a4bc466cb0a01c243dd5
+|\| Merge: 02f5ccd 2fac8b7
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 22:32:30 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/shadowblade11/Word-Rush into main
+| |   
+| *   commit 2fac8b7942652d8b757cdefda146b58d05cb9744
+| |\  Merge: 858fea5 3a8b730
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:32:02 2022 +0800
+| | | 
+| | |     Merge branch 'main' of https://github.com/shadowblade11/Word-Rush into main
+| | | 
+| * | commit 858fea5ef6d90cf2d860701f5a0c53bff4e1d456
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:30:47 2022 +0800
+| | | 
+| | |     Commented on all files code
+| | | 
+| * | commit ea46873316ba7d52771ff9f02f8376e9ea8ab1c0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:30:19 2022 +0800
+| | | 
+| | |     Referenced and commented on code
+| | | 
+| * | commit 40915fa749ef9a31ad1e58882668c642fbeb0810
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:29:20 2022 +0800
+| | | 
+| | |     Made timer 60 seconds, made timer appear faster changing it from 5 seconds to 4 seconds, referenced and commented on code
+| | | 
+| * | commit 5e5c4fe064f75ffd945025d9c5f24800eb08514c
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:28:21 2022 +0800
+| | | 
+| | |     Replaced the images with bette png ones, references links and commented on code
+| | | 
+| * | commit 1a4f8086f11137adb223bf3780ebcf1bdd88ec13
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Sun May 22 14:23:10 2022 +0800
+| | | 
+| | |     Added comments to file and added a title to page
+| | | 
+* | | commit 02f5ccd4ae2437540a443d313eeaad2dbc9c5564
+| |/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|/|   Date:   Sun May 22 22:13:44 2022 +0800
+| |   
+| |       removed dummytest (no longer needed)
+| | 
+* | commit 3a8b730396cafb4795fde2091ce944eb8f0eae0d
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 22:04:36 2022 +0800
+| | 
+| |     added comments to JS files
+| | 
+* | commit 483b8d6a723da688dad95234d5f237fa166186f4
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 21:59:11 2022 +0800
+| | 
+| |     added comments to JS files
+| | 
+* | commit eff7811edc3e35e822855244e6087bfe0c4662fb
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 21:51:18 2022 +0800
+| | 
+| |     added comments to JS files
+| | 
+* | commit 93add561986d8b2d199e037a7af241b3d926cba9
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 21:42:20 2022 +0800
+| | 
+| |     added comments to JS files
+| | 
+* | commit 9602bd9fbd74cd639c143fe33d163c1308772849
+|/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|   Date:   Sun May 22 21:29:24 2022 +0800
+|   
+|       added referencing for style of keyboard
+| 
+* commit 40eefe8e8cdd3b49e74536f9ffb624a2a75245c4
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sun May 22 11:20:07 2022 +0800
+| 
+|     Removed the center tag from html file
+| 
+* commit caeaf4ba6ca1ef9085b87ed3be7dfe3e3ff06bde
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sun May 22 11:19:59 2022 +0800
+| 
+|     Removed the center tag from html file
+| 
+* commit 566d355199a95c630bbb69b1852f3f1d339904c1
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sun May 22 11:19:34 2022 +0800
+| 
+|     Removed hidden = true in some lines
+| 
+* commit ae289277db8eff673c5b17551832da4c75d61925
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sun May 22 11:18:17 2022 +0800
+| 
+|     Added centering to text in CSS now for two html documents
+|   
+*   commit 9b288f9d3b3c29a43b72c1fa1121a10c8b3b738f
+|\  Merge: ef5da3b e499b5a
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:31:03 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/shadowblade11/Word-Rush into main
+| | 
+| * commit e499b5add7e8712892727a4e83f2718676ec63cc
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 14:03:41 2022 +0800
+| | 
+| |     added comments
+| | 
+| * commit 00f7a5f942b4ca3cd8c6688fe5ea82adad467bfa
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 13:55:20 2022 +0800
+| | 
+| |     added test.db to the gitignore
+| | 
+| * commit 8fe825feeda5e0d3705f3dd9b179d7136720344e
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 13:52:41 2022 +0800
+| | 
+| |     added more tests
+| | 
+| * commit 0587c6af5797f8e0d17d59ed8aad2686a13c4c81
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Sun May 22 13:45:24 2022 +0800
+| | 
+| |     added unit tests
+| | 
+* | commit ef5da3b857f82abda8cc9032fcf4a57f63e9ed38
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:30:46 2022 +0800
+| | 
+| |     Fixed typo errors and added to popup text
+| | 
+* | commit 1c521d999f12a67e9148382c4412df122b68660e
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:30:14 2022 +0800
+| | 
+| |     Changes layout of navbar, made changes to share button (added title) and removed unnecessary features
+| | 
+* | commit c55cb21bce776a6bf91f68208ebccaecdde63cff
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:29:04 2022 +0800
+| | 
+| |     Added space next line character and removed a tab space
+| | 
+* | commit 79dd278daea79a8d72a65d0d2343e9a3e44fb3d0
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:28:17 2022 +0800
+| | 
+| |     Made changes to image size on sound button
+| | 
+* | commit 662c5cc56f9919f374cce207dff9d58b399e7bdb
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 22 15:27:42 2022 +0800
+| | 
+| |     Made slight changes to popup style
+| | 
+* | commit 8d5dead4229547b1cf131ad24f26f1b48ba53b2e
+|/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|   Date:   Sun May 22 15:26:47 2022 +0800
+|   
+|       Added game title to clipboard copy
+| 
+* commit 07021073b76bd589977204dd5533137454667341
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sun May 22 12:30:57 2022 +0800
+| 
+|     Removed duplicate Match History link from navbar
+| 
+* commit 51791130997a5156f9cb45f926cc19888ef80274
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 01:19:41 2022 +0800
+| 
+|     removed app.db
+| 
+* commit f9fb4908920f8da259a35fe1629c494681a2e315
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 01:17:11 2022 +0800
+| 
+|     added instructions
+| 
+* commit 69185619e4804f0685f9605f590a5681514115b1
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 00:56:41 2022 +0800
+| 
+|     made it so the nav bar had items on the left/right/middle sections (needed to add a few lines to Styles.css and give the relevant items the right class names)
+| 
+* commit 7bd6ec4509480fb0cef113570bef24da2c1aae56
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 00:39:29 2022 +0800
+| 
+|     needed to edit a few things to make the share button work
+| 
+* commit 51cb37d4c5d8bcfc340b8ff1325aa866003f8f4f
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 00:38:59 2022 +0800
+| 
+|     added the logic for the share button (didn't make sense to create a whole new function)
+| 
+* commit acd1e531670d2b739b6250fe1ef503d1989b25f9
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Sun May 22 00:37:32 2022 +0800
+| 
+|     added a share button to the nav bar
+| 
+* commit 95d775654e1496a850838103d6a9779c8d76402d
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sat May 21 19:54:02 2022 +0800
+| 
+|     Made unit test case
+| 
+* commit 5f0686a4d3e2ff815779f1f717fe95172c8a87d9
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sat May 21 19:53:35 2022 +0800
+| 
+|     Added username to navbar and connected it to match history
+| 
+* commit 52c8f8f5eb904d2c713333df5ed8fe5065ed1071
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sat May 21 06:50:22 2022 +0800
+| 
+|     Made username into a clickable feature
+| 
+* commit 76c3c72c23728aab5731d44f4e911de03307e8de
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Sat May 21 06:49:02 2022 +0800
+| 
+|     Made username into a clickable feature
+|   
+*   commit e728a7029a41e0b52623d973252eb0949f58bf61
+|\  Merge: 8aa5dfd 5bc26f6
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:38:16 2022 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/shadowblade11/Word-Rush into main
+| | 
+| * commit 5bc26f60bd64c1709f6cfa7b866e23c3f62dc574
+| | Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| | Date:   Fri May 20 22:05:54 2022 +0800
+| | 
+| |     Update README.md
+| |     
+| |     Added basic instructions on ensuring that python3 and pip is installed and how to install.
+| | 
+* | commit 8aa5dfd37a8e2c33e1afdf47bf9db868e10b1255
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:37:37 2022 +0800
+| | 
+| |     Had to commit this file to push
+| | 
+* | commit 0feca6ca95dd75fa15014441333278e6249145dd
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:36:55 2022 +0800
+| | 
+| |     Added title to the page
+| | 
+* | commit 05fb47197d831f4192fff697727dded1551c20a6
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:36:48 2022 +0800
+| | 
+| |     Added title to the page
+| | 
+* | commit 24ab4976cc104310977cc3498d158a3160a67f25
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:36:21 2022 +0800
+| | 
+| |     Made changes to the navbar
+| | 
+* | commit 994455395223ef2a9c66523c611a880511996e27
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sat May 21 06:35:19 2022 +0800
+| | 
+| |     Changes the button colour from rainbow to white gradient to better suit the website
+| | 
+* | commit 8a0d62eea37f82278cc568c6dcca4c70e5eddcba
+|/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|   Date:   Sat May 21 06:34:45 2022 +0800
+|   
+|       Made some quality of life changes to the website
+| 
+* commit 7b248e18bd62bc5c74459cf695e3f3f0f978105c
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 07:58:18 2022 +0800
+| 
+|     Separated CSS and JS files into new folders
+| 
+* commit e43e8ebaa3556839a59d816b4304e9c5d31dbb60
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 07:57:05 2022 +0800
+| 
+|     Made small changes to style of leaderboard
+| 
+* commit de037db885f041e8e3393b2c7e681898c86b1642
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 07:56:33 2022 +0800
+| 
+|     Changed all the reference to files
+|   
+*   commit c8395fe1fe936e1acd231eccc791925f8f775c8d
+|\  Merge: 2dcb3f0 960bfff
+| | Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| | Date:   Fri May 20 15:46:42 2022 +0800
+| | 
+| |     Merge pull request #7 from shadowblade11/DevelopReset
+| |     
+| |     Develop reset
+| | 
+| * commit 960bfff797a08706d003f4b49d2de5fd0365a4b4 (origin/DevelopReset)
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:44:10 2022 +0800
+| | 
+| |     Fixed text variables and style
+| |   
+| *   commit d0f289893371b15eb4b7592d99bb21494a4f12e7
+| |\  Merge: a9f7581 2dcb3f0
+| |/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|/|   Date:   Fri May 20 07:42:10 2022 +0800
+| |   
+| |       Merge branch 'main' into DevelopReset
+| |   
+* |   commit 2dcb3f09c522ed8dfe45805df4447eb39ae716d7
+|\ \  Merge: 60e4264 13dfe75
+| | | Author: Jeremy Robertson <103920248+JeremyRobertson24@users.noreply.github.com>
+| | | Date:   Fri May 20 15:27:06 2022 +0800
+| | | 
+| | |     Merge pull request #6 from shadowblade11/DevelopLeaderboard
+| | |     
+| | |     All good, will customise it later.
+| | | 
+| * | commit 13dfe75b001de2bfa9a0c3b13636288e9cf7dd85 (origin/DevelopLeaderboard, DevelopLeaderboard)
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Fri May 20 15:21:58 2022 +0800
+| | | 
+| | |     made it so that the leaderboard is sorted by points
+| | | 
+| * | commit ea15a06b59062c924f0a83c765394a32746fa20f
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Fri May 20 15:19:34 2022 +0800
+| | | 
+| | |     added a link to the nav bar leading to the leaderboard
+| | | 
+| * | commit 39b46386830e581afe192ae690966c7f7489d03c
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Fri May 20 15:18:25 2022 +0800
+| | | 
+| | |     made some QOL changes (capitalize the titles)
+| | | 
+| * | commit f83b20563f3c5dc6325e98d260ea384d4d2d4df9
+|/ /  Author: Sunny Lac <23119307@student.uwa.edu.au>
+| |   Date:   Fri May 20 15:16:58 2022 +0800
+| |   
+| |       made a leaderboard
+| | 
+| * commit a9f7581653618c1d0852a77198fc8329103513af
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:40:23 2022 +0800
+| | 
+| |     Fixed text variables and style
+| | 
+| * commit 9c58f98582a4e4ae07e23d5096dbff4d0717bd50
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:40:15 2022 +0800
+| | 
+| |     Fixed text variables and style
+| | 
+| * commit 1622d390a51723f7a1447f75296d762fed467502
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:40:10 2022 +0800
+| | 
+| |     Fixed text variables and style
+| | 
+| * commit 42e0b78e58ed7514199115674ea1ce01d7d92a76
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:39:17 2022 +0800
+| | 
+| |     Added play again button to nav bar
+| | 
+| * commit 177259f4fcd69a61e3a9f40684026eb0f93bc484
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:38:32 2022 +0800
+| | 
+| |     Added feature to display play again button after timer ends
+| | 
+| * commit b6f1c2981096c60a229036b26b307af994845ba6
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:37:42 2022 +0800
+| | 
+| |     Removed width and height variables
+| | 
+| * commit f2f66ea39a98f4c5c78ae8ca7450885f83528532
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 07:36:16 2022 +0800
+| | 
+| |     Added/changed a tonne of stylistic features mainly for text and/or tables
+| | 
+| * commit 1a6ef913e23f8571fad89c99d4bafc359065d0be
+|/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|   Date:   Fri May 20 07:34:35 2022 +0800
+|   
+|       Small changes to app.db
+| 
+* commit 60e426480bd67cb3a1de556933c5a07785f83a9d
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Fri May 20 14:09:40 2022 +0800
+| 
+|     made a base.html page and converted all html page to match it
+| 
+* commit 4adf767f754a6d9b2f965ea35dd5a66100094fec
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 05:55:35 2022 +0800
+| 
+|     Fixing up daily mode text
+|   
+*   commit 45212431a523bc131623ae0470759816fef96c01
+|\  Merge: 2b4638e 810102e
+| | Author: Jeremy Robertson <103920248+JeremyRobertson24@users.noreply.github.com>
+| | Date:   Fri May 20 13:51:16 2022 +0800
+| | 
+| |     Merge pull request #5 from shadowblade11/DevelopGameLogic
+| |     
+| |     Looks good, seen demo through discord screen share.
+| |   
+| *   commit 810102ef9253072877ae88bb4b6134b3fcae5d47 (origin/DevelopGameLogic, DevelopGameLogic)
+| |\  Merge: e676d96 2b4638e
+| |/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|/|   Date:   Fri May 20 13:47:49 2022 +0800
+| |   
+| |       merge main into DevelopGameLogic branch
+| |   
+* |   commit 2b4638e13a54a7ab84b2938a0206f1ccbd064506
+|\ \  Merge: e4d151b 2fbac01
+| | | Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| | | Date:   Fri May 20 13:34:11 2022 +0800
+| | | 
+| | |     Merge pull request #4 from shadowblade11/DevelopLightDark
+| | |     
+| | |     Has been tested and shown through discord
+| | | 
+| * | commit 2fbac010423bd039622d92f5340b92d93b65bdae (origin/DevelopLightDark)
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:29:09 2022 +0800
+| | | 
+| | |     Made changes to fit darker theme
+| | | 
+| * | commit d8c9d1af9951075fe4ca0263e4911cd1f37f326c
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:28:58 2022 +0800
+| | | 
+| | |     Made changes to fit darker theme
+| | | 
+| * | commit 9b744cb56d3cd29533c274e9ddf69fbef3cd7afb
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:28:45 2022 +0800
+| | | 
+| | |     Made changes to fit darker theme
+| | | 
+| * | commit 586bf410adb2ebe8c3cf86e9e74af1a6447d3288
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:28:12 2022 +0800
+| | | 
+| | |     Modified main style of page to create a darker theme, as the light theme di not suit the website
+| | | 
+| * | commit c9e11ce367d3fd29afd5a5d5232fc717137c5c11
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:27:36 2022 +0800
+| | | 
+| | |     Made changes to the function of popup to fix music playing in the background when it shouldnt be
+| | | 
+| * | commit 4b66a85d0f667ae1ffed707eaae2f03a18b5b5c0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Fri May 20 05:26:46 2022 +0800
+| | | 
+| | |     Made changes to popup style to fit darker theme from older light theme
+| | | 
+| * | commit 299391aa5790a4ae762434d4477f385dd6363edd
+|/ /  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| |   Date:   Fri May 20 05:26:21 2022 +0800
+| |   
+| |       Made changes to popup style to fit darker theme from older light theme
+| | 
+| * commit e676d96bc4f276723f8d8fdd4ce8a82335395aa9
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Fri May 20 13:36:43 2022 +0800
+| | 
+| |     still don't know why this is added
+| | 
+| * commit c1159f7883ff6ac184ab062d9c4d015e7d0a88f6
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Fri May 20 13:36:29 2022 +0800
+| | 
+| |     made it so that if the user has already played the daily mode, the button disappears
+| | 
+| * commit 6e1d936e9e061359307542d1990ffeca75731c3c
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Fri May 20 13:16:05 2022 +0800
+| | 
+| |     made the keyboard onload (remove <body onload> for later on)
+| | 
+| * commit f11a825b99e585ea5e508446177e68dcac6e8a63
+|/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|   Date:   Fri May 20 13:15:30 2022 +0800
+|   
+|       added a free play and daily mode
+| 
+* commit e4d151b7d4a9655859ff9ad89182de4b90df5d3f
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 03:20:31 2022 +0800
+| 
+|     made changes based on music change made in other files
+| 
+* commit d2f06f42d39a21e8928df4165eb6e982699737cf
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 03:18:17 2022 +0800
+| 
+|     Made it so music will now load on website load
+| 
+* commit 1b96612097c5c486ba6ac63cbd54786759be6fe4
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Fri May 20 03:17:31 2022 +0800
+| 
+|     Mde modifications to the music in popup, so now it doesnt play when you close the popup
+|   
+*   commit 34e0d1d40d2c9e814c0daf15e3b593c63fec61c5
+|\  Merge: 923c921 f8084d7
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Fri May 20 02:14:07 2022 +0800
+| | 
+| |     Pulling main from github
+| |   
+| *   commit f8084d730902be9d6e04a333c59082df3ad586dc
+| |\  Merge: 3b082a7 707711d
+| | | Author: Jeremy Robertson <103920248+JeremyRobertson24@users.noreply.github.com>
+| | | Date:   Fri May 20 00:44:24 2022 +0800
+| | | 
+| | |     Merge pull request #3 from shadowblade11/DevelopLoginPage
+| | |     
+| | |     Merging into main - Checked by Jeremy
+| | | 
+* | | commit 923c921666b1e6504defb8afe07e457461351798
+|/ /  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| |   Date:   Fri May 20 02:05:53 2022 +0800
+| |   
+| |       Made some minor changes to both files
+| |   
+| | * commit 9e03043617806d0f847bee3e642a708ce14c248f (DevelopLoginPage)
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Fri May 20 12:16:00 2022 +0800
+| | | 
+| | |     shouldnt be added (it is in the gitignore)
+| | | 
+| | * commit e620420d4377f18aca364b41a16d019b0b587f64
+| |/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+| |   Date:   Thu May 19 23:54:24 2022 +0800
+| |   
+| |       made it so that it is first sorted by points, then by date
+| | 
+| * commit 707711dfc7aba96e906fdccee4efce41c0099b47 (origin/DevelopLoginPage)
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 23:23:55 2022 +0800
+| | 
+| |     refactored the /submit route
+| | 
+| * commit 09b16d7c1b9f7eaa667c8e2ff3154109e4aedffd
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 23:12:54 2022 +0800
+| | 
+| |     reduced music volume (was way too loud before)
+| | 
+| * commit b6074893a53a80917b59ff528744d6061a345b00
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 23:08:01 2022 +0800
+| | 
+| |     moved mute button to nav bar
+| | 
+| * commit 9510c9659c74b3e272dc315c5802794ccc25098e
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 23:07:42 2022 +0800
+| | 
+| |     made it centered
+| |   
+| *   commit 47ee7f5f00bc511273851e58b926912f15b85df5
+| |\  Merge: 3b465da 3b082a7
+| |/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|/|   Date:   Thu May 19 22:56:27 2022 +0800
+| |   
+| |       merge main into login page
+| |   
+* |   commit 3b082a7e91087bbb32f6ee5b728d1fad970235b7
+|\ \  Merge: cb2c814 c1061cd
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Thu May 19 12:10:12 2022 +0800
+| | | 
+| | |     Made minor adjustments to image function
+| | |   
+| * |   commit c1061cd82ff329a165d2056711dd3d31a12a29b4
+| |\ \  Merge: 3ef7b3a dcbab8a
+| | | | Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| | | | Date:   Thu May 19 15:53:06 2022 +0800
+| | | | 
+| | | |     Merge pull request #2 from shadowblade11/DevelopAudio
+| | | |     
+| | | |     Reviewed by me
+| | | | 
+| | * | commit dcbab8a9b75a73fd769b95c06380bfc6913a5da2 (origin/DevelopAudio)
+| | | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | | Date:   Thu May 19 11:10:55 2022 +0800
+| | | | 
+| | | |     Made a function that changes the image on the button to represent if the music is playing or not and to play/pause the music
+| | | | 
+| | * | commit e1ac0d2749b9c30a396fe1ad320336825af40cbf
+| |/ /  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | |   Date:   Thu May 19 11:09:31 2022 +0800
+| | |   
+| | |       Added play/pause button on music
+| | | 
+* | | commit cb2c814ea84ad5bc6a837ff1bcd0155d50df5e84
+|/ /  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| |   Date:   Thu May 19 07:59:12 2022 +0800
+| |   
+| |       Update to main
+| | 
+* | commit 3ef7b3a5fa7e6e86e75f31260c3eef6bed44cdab
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 21:12:16 2022 +0800
+| | 
+| |     Removed old music file for the newer and updated file
+| | 
+* | commit d5547f1bbfa338f7c406312d1c9dd651a73cf1dd
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 21:09:16 2022 +0800
+| | 
+| |     Added music id here, so music will now start when the popup is closed
+| | 
+* | commit f6c47ac5b09e7accf28f3fb724034049480b0a7b
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 21:08:12 2022 +0800
+| | 
+| |     Removed music id from countdown, so music will start somewhere else by another trigger
+| | 
+* | commit 1ebc0205bcf73245f99fc7c50ef35b55068e16f6
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 21:07:08 2022 +0800
+| | 
+| |     Added audio tag to include music into the HTML file
+| | 
+* | commit 44b2aad71d28a654623e8411b07bdfe5a10bc6d3
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 21:05:54 2022 +0800
+| | 
+| |     Updated music file. Now has a better flow and more fluid when it loops
+| | 
+* | commit 8d5ae3d952e0281929d008b68ea3528552d10dea
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Tue May 17 20:10:36 2022 +0800
+| | 
+| |     Added music file for background
+| | 
+| * commit 3b465dadbc2ae4f995c8761dd82e0ae2f947874c
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:14:14 2022 +0800
+| | 
+| |     removed checking lines (lines that just show if it printed or not)
+| | 
+| * commit 7f76cb3de01340e772a6f3f3dae6dcf577216fa4
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:13:36 2022 +0800
+| | 
+| |     added the database (the consistent updating was annoying)
+| | 
+| * commit 74754b61882014be75626b238fc557004c519c7d
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:12:50 2022 +0800
+| | 
+| |     update cause of testing
+| | 
+| * commit c70b2639ef1f8e3c16760e4fd641f45c5ef214ce
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:12:33 2022 +0800
+| | 
+| |     forgot to add class name
+| | 
+| * commit a137503b88acb41227d2805620f5cec9fa114bcf
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:05:30 2022 +0800
+| | 
+| |     change the title page (said Log in before)
+| | 
+| * commit 657fb80f34442c93a2d67b29f6220b412870bc47
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:04:47 2022 +0800
+| | 
+| |     updated routes (added matchhistory, and basic sorting and appending)
+| | 
+| * commit 16207a2524a0140fe6a7c30c4202775f38f026a1
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:03:48 2022 +0800
+| | 
+| |     linked it so that when you click match history link, it'll take you to the match history page
+| | 
+| * commit 05d31b31251c1f418d60b3432a9eff7e7eb6e7a7
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:03:00 2022 +0800
+| | 
+| |     testing
+| | 
+| * commit 100349eaeb5b58ae88719c469205ee7bdb3eedfe
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 19 00:02:45 2022 +0800
+| | 
+| |     made a VERY basic html file to display the match history
+| | 
+| * commit 996d74ee429b626dd9f0fbf5232f35aef25614bd
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 22:08:34 2022 +0800
+| | 
+| |     it updates everytime i add something to the db, there was probs a new user added by me
+| | 
+| * commit b7f3df8c12cc7f2f52691fa3ec65b7a228547033
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 21:38:31 2022 +0800
+| | 
+| |     removed randomly added import
+| | 
+| * commit 3a9fe8ad2d071df7ce5de37ad5b6f802f8b31895
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 21:15:25 2022 +0800
+| | 
+| |     added /submit route where when it receives data, it adds it to the db
+| | 
+| * commit 72872e8c200804bdcd2864d8ad8f6ddab72f2e24
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 21:14:56 2022 +0800
+| | 
+| |     made it so that when timer ends, it submits the data to the db
+| | 
+| * commit df926201e5f7df270a027bf9869a4feed140742b
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 21:14:33 2022 +0800
+| | 
+| |     made a function that POST data to /submit
+| | 
+| * commit d07d35e25f09afd513bd567f5632044bc15ecc39
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 21:14:02 2022 +0800
+| | 
+| |     app.db is always gonna change due to me adding more users, tried some tests in dummyTest
+| | 
+| * commit 78fbe6d4aff10137dc967839fdfd3c8214529bf7
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 19:18:21 2022 +0800
+| | 
+| |     inital creation of submit.js
+| | 
+| * commit 24a01f74a088f37f23264d94337142ce9d9a2b47
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 19:17:52 2022 +0800
+| | 
+| |     linked new js file to html file
+| | 
+| * commit 6dc6237f62e453c702393f40deb31361bacccded
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 12:57:36 2022 +0800
+| | 
+| |     messing around with data
+| | 
+| * commit ced6301adec10ac950493ba18178a4689b6ad2f2
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 12:46:52 2022 +0800
+| | 
+| |     got the secret key working (needed SECRET_KEY in .flaskenv)
+| | 
+| * commit 0b8d4114dfe6b8f1d9700445824fa38b8c772551
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 12:23:52 2022 +0800
+| | 
+| |     secret key stuff added (somehow doesn't work anymore in previous commit) (e.g., the environ.get)
+| | 
+| * commit 79279fd134a3b4c304d5571d9d731e5406308163
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 12:23:04 2022 +0800
+| | 
+| |     changed timer to 60 (was previous 3 to test stuff)
+| | 
+| * commit 3b46511f628e5121afb4dad09f9f2a1cea2c13d6
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 00:47:10 2022 +0800
+| | 
+| |     quick check to see what datetime format is
+| | 
+| * commit f2140e7d3bc75bcfa69d77d50a990bee48d5cf1c
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 18 00:00:01 2022 +0800
+| | 
+| |     moved secret to a more secure location
+| | 
+| * commit c679014dd1be076b05d40e8bf921864c00565916
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 23:42:13 2022 +0800
+| | 
+| |     edited files to include login/register functions
+| | 
+| * commit ede2950a69ff203e2f4db0751b3851ae681e934e
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 23:41:04 2022 +0800
+| | 
+| |     edited the html files to have jinja
+| | 
+| * commit 4bd0ca02e067c92c8ac3dbe952db44af24e5141c
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 23:40:25 2022 +0800
+| | 
+| |     tested db to check if working
+| | 
+| * commit a1819516db9a25a8698426c5989783a31d3fb383
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 23:40:01 2022 +0800
+| | 
+| |     made a register page
+| | 
+| * commit bd0b777a09bbb850cbe810416a63fc786f4b2f23
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 23:38:06 2022 +0800
+| | 
+| |     updated requirements
+| | 
+| * commit 20f73254daf6e84fef048568c8f8a34c46ba4759
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 17:21:22 2022 +0800
+| | 
+| |     messing around with db
+| | 
+| * commit 9f0f6b6695ae1670499e9be21cf6a9f45016cca6
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 17:17:45 2022 +0800
+| | 
+| |     started login page (NOT FINISHED)
+| | 
+| * commit 4703746f8b38b0f2f22af4cf48633e967a79458f
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 17:17:19 2022 +0800
+| | 
+| |     made it center
+| | 
+| * commit f3aff455cab8324b5a02b54ee4742d2f771fbdc8
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 17:16:57 2022 +0800
+| | 
+| |     fixed an opacity issue
+| | 
+| * commit 4f74547ed21b1b1a3a1356f23e7b543478be3e67
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 17:16:15 2022 +0800
+| | 
+| |     made the keyboard activate when the game starts
+| | 
+| * commit 20b240214f4f934afcd69d22ca3c98261e0dd902
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 17 16:38:23 2022 +0800
+| | 
+| |     added a navbar for login
+| | 
+| * commit f65a8ca18067ae062b607b4028377b1ae0fac4ce
+|/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|   Date:   Tue May 17 16:37:58 2022 +0800
+|   
+|       made the button centered
+| 
+* commit a64a0b23c88e589a318bcad7fcc2b33f453b8aeb
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Tue May 17 15:52:09 2022 +0800
+| 
+|     Made slight changes to the HTML file
+| 
+* commit 28086a5026a68f26b2fe634f5b7bcb2f9cc2fc87 (origin/DevelopScorecard)
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Tue May 17 14:53:47 2022 +0800
+| 
+|     Connected total points earned to a popup display once timer hits 0s
+| 
+* commit 9dd170016a70546619b53832702a62860daa4e3c
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Tue May 17 14:52:31 2022 +0800
+| 
+|     Made some changes to popup to work on outside click
+| 
+* commit 3ab1e5cae6f843fe28daba5dbc326193ffb21d19
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Tue May 17 14:51:00 2022 +0800
+| 
+|     Added flashing animation to timer based on time left
+| 
+* commit cb6a3289b7f29811f60a0794e629b273dea049c0
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Tue May 17 14:50:14 2022 +0800
+| 
+|     Added flashing animation to timer based on time left
+| 
+* commit 6760bdaa730955c0a0afcf905ed64784fcd83515
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 16 22:45:14 2022 +0800
+| 
+|     basic database working, (dummyTest is purely to test the database)
+| 
+* commit ca7ce3a4afde0c770fad9ea768d179b51694fead
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 16 22:05:39 2022 +0800
+| 
+|     added db libraries
+| 
+* commit 95af46cbfe7ac06885b9d2ea1919b1762e0193e5
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 16 16:09:18 2022 +0800
+| 
+|     linked the point system to the timer (before we had it as a button just to test it)
+|   
+*   commit 45ec9a63d82f514ca1b95752d0d7f4e4fa92b176
+|\  Merge: 85f0a01 48f90c1
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 16 07:50:30 2022 +0800
+| | 
+| |     Merged DevelopRandomiser into Main branch
+| | 
+| * commit 48f90c113defd88ecfc8fd3d2191ec797bf7f2ed (origin/DevelopRandomiser)
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 16 07:46:03 2022 +0800
+| | 
+| |     Made randomiser and added it to HTML
+| |   
+* |   commit 85f0a0141f2de4304e04b6e741904c9960cd757c
+|\ \  Merge: 62b94c4 ebb5373
+| |/  Author: Sunny Lac <23119307@student.uwa.edu.au>
+|/|   Date:   Mon May 16 14:46:19 2022 +0800
+| |   
+| |       Merge branch 'DevelopPointSystem' into main
+| | 
+| * commit ebb5373bca74df4f2498565253d0f4542051162e (DevelopPointSystem)
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Mon May 16 13:45:21 2022 +0800
+| | 
+| |     small fixes, waiting for other branches to be merged first
+| | 
+| * commit 9ea83e737f3cf56f803c868a780c5cc00fb717fa
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Mon May 16 13:23:47 2022 +0800
+| | 
+| |     added h1 tag for testing
+| | 
+| * commit 2e10c49cd89221af7fb13092060a351d97b18ac0
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Mon May 16 13:23:27 2022 +0800
+| | 
+| |     added a working point system
+| | 
+| * commit 3db174c124ebb28e7491e73b7a7d3a10d4b97ae0
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Mon May 16 12:34:48 2022 +0800
+| | 
+| |     initial creation of js file
+| |   
+* |   commit 62b94c4ae5b38c459ac777d5b26f1e1001282069
+|\ \  Merge: 736a85c c002087
+| |/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|/|   Date:   Mon May 16 06:36:55 2022 +0800
+| |   
+| |       Merged DevelopTimer into Main branch
+| | 
+| * commit c00208787721fccac36ff216fc8d1a9bd681624b (origin/DevelopTimer)
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 16 04:44:09 2022 +0800
+| | 
+| |     Added delay to countdown as timer began at the same time as the countdown ran
+| | 
+| * commit 37f9c065f1e5647f67be2eaa2eaa2fa9e3a09c1a
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 16 04:43:17 2022 +0800
+| | 
+| |     Centered countdown in the middle of the screen as previously is was off-centered
+| | 
+| * commit 60bffeebf631b4d5ce930dc8d1e78e4faa695fc7 (DevelopTimer)
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 15 05:35:32 2022 +0800
+| | 
+| |     Used timer.js to add functions for game timer including the ability for it to appear on button press/click
+| | 
+| * commit 87879fd964bf7e11bfa7f583c1f60cef3e1cdcc4
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 15 05:34:17 2022 +0800
+| | 
+| |     Used timer.css for styling the new game timer
+| | 
+| * commit cd792b925d216046fe0fecaf040c53d31defffda
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 15 05:33:25 2022 +0800
+| | 
+| |     Linked new files to HTML
+| | 
+| * commit ba5c6467831df67d368a91eeb2dee651a4ee2ec0
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 15 05:32:49 2022 +0800
+| | 
+| |     Moved countdown JS to new file to separate visuals of the timer and countdown individually
+| | 
+| * commit 5b156da0b5488d886427d737aa8f549cb69f44ae
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Sun May 15 05:31:57 2022 +0800
+| | 
+| |     Moved countdown code to new file to separate it from the timer
+| |   
+| *   commit 92236fef7d5e0cef06f04bc2c0bc4e6df1afd594
+| |\  Merge: 8b79139 95f091b
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Thu May 12 13:18:24 2022 +0800
+| | | 
+| | |     Merged DevelopPopup into DevelopTimer to test a couple of features
+| | | 
+| | * commit 95f091b8dbd806e7a03d892f34ee0f4faa92af01 (origin/DevelopPopup)
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Wed May 11 12:30:47 2022 +0800
+| | | 
+| | |     Added function so overlay will not close when popup is close
+| | | 
+| | * commit 381a004e69111e7c7b35d68e7861cb6b1e7072cb
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Wed May 11 12:30:01 2022 +0800
+| | | 
+| | |     Added overlay to CSS file under the heading container-popup
+| | | 
+| | * commit 5229113ba174292ca565bdcdfe6ecb3020c2fce0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Wed May 11 12:28:55 2022 +0800
+| | | 
+| | |     Added another div called container-popup to use for overlay
+| | | 
+| * | commit 8b791398e7abac74d5fc6fa5b42a54167689f7b0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Thu May 12 13:01:15 2022 +0800
+| | | 
+| | |     made minor changes to Popup.css to work with button
+| | | 
+| * | commit 42552cad36008679f54243c301a7ab13921e951f
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Wed May 11 14:05:05 2022 +0800
+| | | 
+| | |     Added more features to button when hovering and clicking
+| | | 
+| * | commit c66c7cba341b1e4f38125bdaf91bea5d7182e6d0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 10 20:45:58 2022 +0800
+| | | 
+| | |     Had to edit the background so it wasnt as distracting
+| | | 
+| * | commit 52d079c0c6d30c86449678cd2ec2542c765f1111
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 10 13:08:22 2022 +0800
+| | | 
+| | |     HTML file was fixed for the new changes made to the button and timer
+| | | 
+| * | commit c677a2d5369af827eae8d04d77c8fb0c61531c01
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 10 13:07:38 2022 +0800
+| | | 
+| | |     Functions of the timer were changed to allow for a more reasonable time and changed what it did
+| | | 
+| * | commit 198ae0fbf69c852ae0600a32e9a1131ecc064aa5
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 10 13:06:34 2022 +0800
+| | | 
+| | |     Converted timer.css to only change the text itself for the timer (only affects the timer itself)
+| | | 
+| * | commit b49655bc91f76475fb4b26ada4d4a65688e9441c
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 10 13:05:34 2022 +0800
+| | | 
+| | |     Created a seperate CSS file for the aesthetics of the button
+| | | 
+| * | commit 878727f345fb74dec39b678776f312c57eefcef0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 22:34:33 2022 +0800
+| | | 
+| | |     Created a more stylised button that is more suited for a game
+| | | 
+| * | commit 0dd75bd189989100d710af9736efc308ab2bea85
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 22:33:41 2022 +0800
+| | | 
+| | |     Deleted old JS functions, to replace with newer function
+| | | 
+| * | commit 24be771c61ca893615bbf9e1a384df1cc475ab20
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 22:25:21 2022 +0800
+| | | 
+| | |     Fixed button in HTML file and added in link to CSS file
+| | | 
+| * | commit 0bacc263a99d60a68e5c2fa3d8838a2ca812e5e9
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 15:31:22 2022 +0800
+| | | 
+| | |     Wrote JS code for timer functions
+| | | 
+| * | commit 7a407f12659843378223e3431db80e0c736c598a
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 15:30:21 2022 +0800
+| | | 
+| | |     Added JS link to HTML file
+| | | 
+| * | commit dbdc69a3893971170c1421917bc1ca1018202dc5
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Tue May 3 14:48:01 2022 +0800
+| | | 
+| | |     Created JS and CSS files for the timer
+| | | 
+* | | commit 736a85cc71f8f46270bc5f496f253ef0a8c917e9
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 16 12:16:40 2022 +0800
+| | | 
+| | |     quick fixes
+| | | 
+* | | commit f89413eea094fb4ea1ec0e604832dce095ddb00a
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Sun May 15 15:26:39 2022 +0800
+| | | 
+| | |     fixed an issue where if the user was fast enough (under 1 second), they could type the same word twice duen to the delay of the API taking 1 second to load
+| | | 
+* | | commit 1d0213d9200053226d4d466f4614912b4cb198c1
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Thu May 12 21:58:40 2022 +0800
+| | | 
+| | |     bug fix
+| | | 
+* | | commit 5bedff292dc2840ef1a4a934769621b5fb913e1f (origin/DevelopValidator, DevelopValidator)
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Thu May 12 21:41:20 2022 +0800
+| | | 
+| | |     fixed the way the textbox worked (made it flashing)
+| | | 
+* | | commit e11b8383faed7109bd99feec1bcfbafb013b3b58
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Wed May 11 22:28:24 2022 +0800
+| | | 
+| | |     removed theme
+| | | 
+* | | commit d8adb6d998d63115c902a7afef900ff9cc84c5a6
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Wed May 11 21:51:38 2022 +0800
+| | | 
+| | |     Changed our game design, delay shouldn't affect it
+| | | 
+* | | commit 7b2ec319a9837489341d298ff8da37f3eb46f64f
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Tue May 10 11:57:56 2022 +0800
+| | | 
+| | |     fixed the functions, there's a slight delay
+| | | 
+* | | commit 204aabab6fa6838aed2299e9edc200ad7f48c66d
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Tue May 10 11:51:22 2022 +0800
+| | | 
+| | |     redid the functions, still does not work
+| | | 
+* | | commit 3af0eafe7e7e84bdba47e4f664689712407b8ef2
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 9 23:25:38 2022 +0800
+| | | 
+| | |     Created a validator js file, currently validateWord doesn't work
+| | | 
+* | | commit c65a160da9ce32c55e839d72f701068dd864cafe
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 9 23:25:01 2022 +0800
+| | | 
+| | |     updated the code to factor in validator (also added JQuery)
+| | | 
+* | | commit 3103dc446b2210f6439d7eeb12196609460560d0
+| | | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | | Date:   Mon May 9 20:50:20 2022 +0800
+| | | 
+| | |     Changed time it would take for popup to show
+| | | 
+* | | commit f0c7b20caebd9a7c2ee59c8f44ceb3378f8af25b
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 9 19:18:36 2022 +0800
+| | | 
+| | |     converted to flask format
+| | |   
+* | |   commit 696d9dab97200e82d61841ccad1b0b6d7f07123b
+|\ \ \  Merge: f25511d 872b931
+| | |/  Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+| |/|   Date:   Mon May 9 16:05:51 2022 +0800
+| | |   
+| | |       Merge pull request #1 from shadowblade11/DevelopPopup
+| | |       
+| | |       Develop popup merges into main branch
+| | |   
+| * |   commit 872b931c90a51dcea048732d32506694248c5e6c
+| |\ \  Merge: 5dac9d8 f25511d
+| |/ /  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|/| /   Date:   Mon May 9 16:02:15 2022 +0800
+| |/    
+| |         Fixed merging conflict issues
+| | 
+* | commit f25511ddc676fa63b34d7527ff66a41d4c301016
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 9 15:53:59 2022 +0800
+| | 
+| |     Changed background colour, as it became a bit distracting while working on the website
+| | 
+* | commit 9f94b4c9729ab70ac7b6ac94cb1d0c6e909d27ec (origin/DevelopKeyboard, DevelopKeyboard)
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 5 16:18:17 2022 +0800
+| | 
+| |     forgot to add className to the div
+| | 
+* | commit 860983e0f631cb169f36eff64dbb7e0a67b5e00a
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 5 16:08:40 2022 +0800
+| | 
+| |     last minute changes (removing whitespace, commented lines)
+| | 
+* | commit 553a4c6efbce7470b4a642d4e962b28e56168915
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 5 16:07:27 2022 +0800
+| | 
+| |     made an onload function that will create the virtual keyboard
+| | 
+* | commit dabc56b3ba5f31c6b327679acfcbcc5db23e2372
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 5 16:07:03 2022 +0800
+| | 
+| |     removed unnecessary files, also added an onload for keyboard
+| | 
+* | commit 8402bff83abdfc5f0e98cbce1de9b55ae6487825
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Thu May 5 15:18:29 2022 +0800
+| | 
+| |     fixed sizing on different devices
+| | 
+* | commit 8b754ab60d38cfa3d7fbedc11b78654a7b1fc38f
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 4 20:03:42 2022 +0800
+| | 
+| |     removed extra div (this was added when merge conflict occurred)
+| | 
+* | commit ca21315fa9b7dcb4038998832c4ea2439cf1ddaa
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Wed May 4 14:13:10 2022 +0800
+| | 
+| |     renamed WRHTML.html to index.html
+| | 
+* | commit c3393d2ca1b4bec0558e94fb275e6667c55d178f
+| | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | Date:   Tue May 3 14:32:58 2022 +0800
+| | 
+| |     removed popup.css and popup.js (they were added due to a misuse in git commands)
+| |   
+* |   commit 6b67b9b54d4016268cc224b3bb3b48e6daef5696
+|\ \  Merge: 73a9edb 36caea3
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Tue May 3 14:19:19 2022 +0800
+| | | 
+| | |     fixed conflict issue
+| | | 
+* | | commit 73a9edb54b985f71f680f5f68cd2fb1500f4fc16
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 21:56:40 2022 +0800
+| | | 
+| | |     fixed issues with numbers and their alternatives
+| | | 
+* | | commit ca7ef56943c25a08456ae2ceda62b9603606f551
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 21:50:06 2022 +0800
+| | | 
+| | |     fixed issue when pressing tab, alt, etc
+| | | 
+* | | commit 01de101e224393a053fd2baee4c4108f1f0e6fc1
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 21:45:37 2022 +0800
+| | | 
+| | |     Made it work with pc keyboard
+| | | 
+* | | commit 04674231e8addbc340d8745578f6423d1d6073b1
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 21:45:15 2022 +0800
+| | | 
+| | |     edited onclick function
+| | | 
+* | | commit 4000157847673b7f7538f56de48c3bd8c4509f98
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:44:08 2022 +0800
+| | | 
+| | |     added conditions for delete button
+| | | 
+* | | commit 5ca8a6ed1c079c5ccc1d576776de59f78a8e2d5b
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:34:42 2022 +0800
+| | | 
+| | |     added onclick on each letter
+| | | 
+* | | commit 8e0148b99a3acd289c7a0b4f3ad5c653797f9612
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:34:23 2022 +0800
+| | | 
+| | |     Made a working function
+| | | 
+* | | commit 90ddb952d22382f9d7c720c46a9db6ff232bd040
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:28:59 2022 +0800
+| | | 
+| | |     actually added keyboard js file
+| | | 
+* | | commit 51743374d8cae59f4abae70dff2debde91237d67
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:17:17 2022 +0800
+| | | 
+| | |     Added keyboard layout + css + js
+| | | 
+* | | commit cc32d2c9678d03ff525eaf038870b8b154a0fc72
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 20:15:15 2022 +0800
+| | | 
+| | |     created CSS file for keyboard
+| | | 
+* | | commit 5c8758deb196487eba99583760f3545619e4cb50
+| | | Author: Sunny Lac <23119307@student.uwa.edu.au>
+| | | Date:   Mon May 2 19:25:51 2022 +0800
+| | | 
+| | |     Made a Div
+| | | 
+| | * commit 5dac9d87b40bf39b5c606439d08e30c4cd4738e0 (DevelopPopup)
+| |/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| |   Date:   Tue May 3 14:31:22 2022 +0800
+| |   
+| |       made small changes to each file to allow the popup to be closed
+| | 
+| * commit 36caea3cbdf32b05caaa91143c4b64862cf53e7c
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 2 21:23:19 2022 +0800
+| | 
+| |     Linked JS and CSS files to HTML for popup
+| | 
+| * commit 246c3eddd397b5c89b1c6386d489e5f8c30fb584
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 2 21:22:36 2022 +0800
+| | 
+| |     Wrote code for CSS part of popup
+| | 
+| * commit 3031d4bb4c20f6649f7a652784d7a8963cbd9a75
+| | Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| | Date:   Mon May 2 21:21:11 2022 +0800
+| | 
+| |     Wrote code for CSS part of popup
+| | 
+| * commit e11e0c3231a01781b57d7e1babbd449546d65f00
+|/  Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+|   Date:   Mon May 2 20:23:35 2022 +0800
+|   
+|       Created Popup CSS and JS files
+| 
+* commit e0558706322d9da0b620bcee04ed7ddcc2ab800a
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Mon May 2 19:17:57 2022 +0800
+| 
+|     added bootstrap link
+| 
+* commit 6ab270949c7b222e78604287210269aef3fe11f3
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Wed Apr 20 20:46:29 2022 +0800
+| 
+|     Added webpage background
+| 
+* commit e8b1abfe1529db30a656154bbd4c53b683e61e30
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Wed Apr 20 20:16:41 2022 +0800
+| 
+|     linked css and js to html file
+| 
+* commit 8223a7285e0940008c52105dc80bea1660ebadc3
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Wed Apr 20 20:13:49 2022 +0800
+| 
+|     created css file
+| 
+* commit bde0a63d605bf24b2620e73cea993bd03a3578af
+| Author: Jeremy Robertson <23279784@student.uwa.edu.au>
+| Date:   Wed Apr 20 20:01:19 2022 +0800
+| 
+|     Created HTML file
+| 
+* commit 8226a86bf6ecfc0ee825059e9786ee48ea74d422
+| Author: Sunny Lac <23119307@student.uwa.edu.au>
+| Date:   Wed Apr 20 19:58:35 2022 +0800
+| 
+|     created javascript file
+| 
+* commit b250c23500bd2c96180523ef0e19076039150def
+  Author: Sunny Lac <103437902+shadowblade11@users.noreply.github.com>
+  Date:   Wed Apr 20 19:51:08 2022 +0800
+  
+      Initial commit

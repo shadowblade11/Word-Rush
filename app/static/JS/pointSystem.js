@@ -57,8 +57,3 @@ function share(){
         `
     );
 }
-
-function outShare(){
-    var tooltip = document.getElementById("myToolTip");
-    tooltip.innerHTML = "Copied to Clipboard";
-}

@@ -88,7 +88,7 @@ THAT = 110pt (you get a base of 40pt, plus 15 for using T or H 3 times. BUT sinc
 ## Authors
 Sunny Lac - [shadowblade11](https://github.com/shadowblade11)
 
-Jeremy Robertson
+Jeremy Robertson - [JeremyRobertson24](https://github.com/JeremyRobertson24)
 
 ## Acknowledgments
 Built following the [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by **Miguel Grinberg**.

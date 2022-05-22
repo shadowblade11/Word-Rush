@@ -1,3 +1,5 @@
+<!-- HTML for Register page -->
+
 {% extends "base.html" %}
 {% block content %}
     <div class="html-center">
@@ -5,8 +7,10 @@
         <form method="POST" action="/register">
             {{ form.hidden_tag() }}
             {%if username %}
+            <!-- Username check -->
             <h3>{{ username }} has been taken</h3>
             {% endif %}
+            <!-- Textbox and input for register -->
             <h3>Username</h3>{{ form.username }} <br>
             <h3>Password</h3>{{ form.password }} <br>
             <h3></h3>

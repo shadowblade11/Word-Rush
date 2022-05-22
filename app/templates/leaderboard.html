@@ -1,7 +1,10 @@
+<!-- HTML for Global Leaderboard page -->
+
 {% extends "base.html" %}
 {% block content %}
 <h1>Global Leaderboard</h1>
 <table class="center" style="width: 100%">
+    <!-- List headings -->
     <tr>
         <th>Username</th>
         <th>Total Points</th>
@@ -9,6 +12,7 @@
         <th>Words Accuracy</th>
     </tr>
     {% for item in data %}
+    <!-- List data -->
         <tr>
             <th>{{ item.username }}</th>
             <th>{{ item.points }}</th>

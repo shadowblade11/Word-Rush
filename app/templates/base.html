@@ -9,6 +9,7 @@
     {% else %}
     <title> blank home page </title>
     {% endif %}
+    <!-- All required CSS files and files necessary for loading when webpage loads -->
     <link rel="stylesheet" href="{{ url_for('static',filename='CSS/Styles.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='CSS/keyboard.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename='CSS/Popup.css') }}">
@@ -22,31 +23,40 @@
 <body id="keys">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg" id="nav">
+        <h1>Word Rush!</h1>
         {% if current_user.is_anonymous %}
         {% else %}
+            <!-- Reference/hyperlink to daily mode iff logged -->
             <a class="nav-link" href="{{ url_for('daily') }}">Daily</a>
         {% endif %}
-        <a class="nav-link" href="{{ url_for('free_play') }}">Free Play</a>
-        <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
-        <div class = "middle"></div>
-        <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
-        <button onclick="share()" hidden="true" id="shareBtn" title="Copy to Clipboard">Share</button>
-        <div class = "right"></div>
+            <!-- Reference/hyperlink to free play and leaderboard -->
+            <a class="nav-link" href="{{ url_for('free_play') }}">Free Play</a>
+            <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
+            <div class = "middle"></div> <!-- Aligns everything below to the left of the nav bar-->
+            <!-- Play again button tha links back to free play page -->
+            <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
+            <!-- Share button that will copy your most current statistics to the clipboard -->
+            <button onclick="share()" hidden="true" id="shareBtn" title="Copy Score to Clipboard">Share</button>
+            <div class = "right"></div> <!-- Aligns everything below to the right side of the nav bar -->
         {% if current_user.is_anonymous %}
+            <!-- Hyperlinks for login and register page -->
             <a class="nav-link" href="{{ url_for('login') }}">LOGIN</a>
             <a class="nav-link" href="{{ url_for('register') }}">REGISTER</a>
         {% else %}
+            <!-- Logout button -->
             <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
         {% endif %}
-            <button class="nav-link" onclick="share()" hidden="true" id="shareBtn">Share</button>
         {% if not current_user.is_anonymous %}
-        <a class="nav-link" href="{{ url_for('matchHistory') }}"> Hello, {{current_user.username}}</a>
+            <!-- Displays users username once they have logged in -->
+            <a class="nav-link" href="{{ url_for('matchHistory') }}"> Hello, {{current_user.username}}</a>
         {% endif %}
-        <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
-            <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://w7.pngwing.com/pngs/131/14/png-transparent-audio-mute-sound-speaker-volume-basic-web-elements-icon.png" id="myImg" width="25" height="25" /></button>
+            <!-- Button to play and pause music -->
+            <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
+                <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://cdn-icons-png.flaticon.com/512/56/56882.png" id="myImg" width="25" height="25" /></button>
     </nav>
     {% block content %}
     {% endblock %}
+    <!-- All necessary JS files that need to be loaded -->
     <script src="{{ url_for('static',filename='JS/keyboard.js') }}"></script>
     <script src="{{ url_for('static',filename='JS/validator.js') }}"></script>
     <script src="{{ url_for('static',filename='JS/pointSystem.js') }}"></script>

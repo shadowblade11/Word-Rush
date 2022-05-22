@@ -1,12 +1,16 @@
+<!-- HTML for Log In page -->
+
 {% extends "base.html" %}
 {% block content %}
     <div class="html-center">
         <h1>LOG IN</h1>
         <form method="POST" action="/login">
             {{ form.hidden_tag() }}
+            <!-- Password check -->
             {%if incorrectPassword %}
             <h3>Password is incorrect</h3>
             {% endif %}
+            <!-- Textbox and imput for data -->
             <h3>Username</h3>{{ form.username }} <br>
             <h3>Password</h3>{{ form.password }} <br>
             <h6>Remeber me? {{ form.remember_me }}</h6>

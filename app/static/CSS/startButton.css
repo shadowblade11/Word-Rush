@@ -1,3 +1,4 @@
+/* Main button body */
 .button {
     width: 220px;
     height: 50px;
@@ -13,7 +14,7 @@
     left: 50%;
     top: 50%;
 }
-
+/* Colour change and animation for button when clicked on */
 .button:before {
     content: '';
     background: linear-gradient(45deg, white, grey,white);
@@ -30,7 +31,7 @@
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
+/* Button as displayed initially on screen */
 .button:active {
     color: #000
 }
@@ -38,11 +39,12 @@
 .button:active:after {
     background: transparent;
 }
-
+/* Outer glow for button */
 .button:hover:before {
     opacity: 1;
 }
 
+/* Removal of button */
 .button:after {
     z-index: -1;
     content: '';
@@ -54,7 +56,7 @@
     top: 0;
     border-radius: 10px;
 }
-
+/* Animation for button */
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }

@@ -14,12 +14,12 @@ body {
     opacity: 0;
   }
 }
-
+/* Animation for Type textbox */
 #textBox:empty::before{
   content: "TYPE";
   animation: blinker 1s linear infinite;
 }
-
+/* Attributes for the word list */
 ul {
   list-style: none;
   max-height:85%;
@@ -35,6 +35,7 @@ li{
   margin: 10px;
 }
 
+/* Colour of main background */
 #keys{
   background-color: #2E5984;
 }
@@ -42,16 +43,17 @@ li{
 html{
   background-color: #2E5984;
 }
-
+/* Colour of main text */
 h1{
   color: whitesmoke;
 }
+/* Colour of main background */
 nav{
   background-color: black;
   padding-left: 0.5%;
   
 }
-
+/* Colour of other main text area */
 #daily-text{
   color: whitesmoke;
 }
@@ -62,25 +64,26 @@ h3{
 h6{
   color: whitesmoke;
 }
-
+/* Centering of leaderboard and match history and text colour */
 table.center{
   color: black;
   margin-left: auto;
   margin-right: auto;
   border-collapse: separate;
-  border-spacing: 5px;
-  
+  border-spacing: 5px; 
 }
-
+/* Colour of column cell backgrounds */
 th, td{
   background-color: #bdbdbd;
 }
 
+/* Size of images in speaker button */
 #myImg{
   width: 25px;
   height: 25px;
 }
 
+/* Adjustments of nav-bar elements (either right or left side) */
 .right{
   margin-left: auto;
   margin-right: 0;
@@ -90,7 +93,7 @@ nav.middle{
   margin-left: auto;
   margin-right: auto;
 }
-
+/* Aligning text for register and login pages */
 .html-center{
   text-align: center;
 }

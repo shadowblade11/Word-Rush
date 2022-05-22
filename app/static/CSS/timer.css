@@ -1,3 +1,7 @@
+/* The CSS was from https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ howerver,
+the actual content was modified to fit our game*/
+
+/* Changed size of timer circle */
 .base-timer {
   position: absolute;
   width: 100px;
@@ -45,6 +49,7 @@
   animation: blinker 0.25s linear infinite;
 }
 
+/* Made edits to the timer, particularly size, position and colour */
 .base-timer__label {
   position: absolute;
   width: 100px;
@@ -58,7 +63,8 @@
 }
 
 @keyframes blinker {
+  /* Made timer slower and reduced opacity  */
   50% {
-    opacity: 0.5;
+    opacity: 0.5; 
   }
 }

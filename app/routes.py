@@ -9,10 +9,8 @@ from datetime import date, datetime
 @app.route('/index')
 def index():
     if current_user.is_authenticated:
-        # return render_template("index.html", freeplay=False)
         return redirect(url_for('daily'))
     else:
-        # return render_template('index.html', freeplay=True)
         return redirect(url_for('free_play'))
 
 
@@ -25,7 +23,6 @@ def login():
         user = User.query.filter_by(username=form.username.data).first()
         if user:
             if check_password_hash(user.password_hash, form.password.data):
-                # return f"<h1>Hello {form.username.data}</h1>"
                 login_user(user, remember=form.remember_me.data)
                 return redirect(url_for('daily'))
             else:

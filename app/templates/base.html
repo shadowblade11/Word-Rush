@@ -26,7 +26,6 @@
             <a class="nav-link" href="{{ url_for('login') }}">LOGIN</a>
             <a class="nav-link" href="{{ url_for('register') }}">REGISTER</a>
         {% else %}
-            <a class="nav-link" href="{{ url_for('matchHistory') }}">Match History</a>
             <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
             <a class="nav-link" href="{{ url_for('daily') }}">Daily</a>
         {% endif %}

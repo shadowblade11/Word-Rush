@@ -73,6 +73,7 @@ document.getElementById("begin").addEventListener("click", function(){
                         <h4>Your Score Is:</h4>
                         <h1>${finalScore}</h1>
                         <p>(click anywhere to close)</p>
+                        <p>click on your username to see your match history</p>
                     `;
             //Displays play again and share button once time us up 
             document.getElementById('reset').hidden = false;

@@ -34,9 +34,9 @@
             <a class="nav-link" href="{{ url_for('leaderboard') }}">Leaderboard</a>
             <div class = "middle"></div> <!-- Aligns everything below to the left of the nav bar-->
             <!-- Play again button tha links back to free play page -->
-            <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden="true"> Play Again!</a>
+            <a class="nav-link" id="reset" href="{{ url_for('free_play') }}" hidden> Play Again!</a>
             <!-- Share button that will copy your most current statistics to the clipboard -->
-            <button onclick="share()" hidden="true" id="shareBtn" title="Copy Score to Clipboard">Share</button>
+            <button onclick="share()" hidden id="shareBtn" title="Copy Score to Clipboard">Share</button>
             <div class = "right"></div> <!-- Aligns everything below to the right side of the nav bar -->
         {% if current_user.is_anonymous %}
             <!-- Hyperlinks for login and register page -->
@@ -52,7 +52,7 @@
         {% endif %}
             <!-- Button to play and pause music -->
             <audio src="../static/WordRush.mp3" id="audio" preload="auto" loop></audio>
-                <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://cdn-icons-png.flaticon.com/512/56/56882.png" id="myImg" width="25" height="25" /></button>
+                <button class="nav-link" type="button" onclick="imageChange()"> <img src="https://cdn-icons-png.flaticon.com/512/56/56882.png" id="myImg" width="25" height="25" alt="mutebutton"/></button>
     </nav>
     {% block content %}
     {% endblock %}
